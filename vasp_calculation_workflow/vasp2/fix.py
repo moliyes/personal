@@ -8,7 +8,7 @@ def convert_incar_to_unix_format():
     incar_path = os.path.join(root, 'INCAR')
     
     if not os.path.exists(incar_path):
-        print("错误：未找到INCAR文件！")
+        print("错误：未找到INCAR文件！123")
         return
 
     # 读取文件内容（自动处理原始换行符）
@@ -20,7 +20,7 @@ def convert_incar_to_unix_format():
         f.write(content)
 
     print("INCAR文件已成功转换为Unix换行格式！123")
-    
+
 
 if __name__ == "__main__" :
     convert_incar_to_unix_format()
