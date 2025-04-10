@@ -19,7 +19,8 @@ def convert_incar_to_unix_format():
     with open(incar_path, 'w', encoding='utf-8', newline='\n') as f:
         f.write(content)
 
-    print("INCAR文件已成功转换为Unix换行格式！")
+    print("INCAR文件已成功转换为Unix换行格式！123")
+    
 
-if __name__ == "__main__":
+if __name__ == "__main__" :
     convert_incar_to_unix_format()
