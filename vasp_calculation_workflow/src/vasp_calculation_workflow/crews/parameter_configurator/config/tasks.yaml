@@ -1,0 +1,48 @@
+configuration_task:
+  description: >
+    基于验证后的POSCAR文件内容{poscar}生成用于结构优化的参数文件KPOINTS和INCAR，你的思考可能包括但不限于：
+    1. 维度判别：
+       - 块体：Z方向重复数>3
+       - 表面：真空层>10Å
+       - 分子：总原子数<50
+    2. 电子收敛设置：
+       - EDIFF=1E-5~1E-7（金属取低值）
+       - EDIFFG（力收敛标准）,原子弛豫收敛标准。默认为EDIFF*10。如果为正，表示总能只差小于EDIFFG时停止弛豫。如果为负，则原子所受最大力小于EDIFFG的绝对值时停止弛豫，一般取负值的收敛性更好，如取当EDIFF=1.0E-06时候，可以取EDIFFG=-0.01
+    3. 离子弛豫：
+       - IBRION=2（准牛顿优化）
+       - NSW=100-200（根据体系大小）
+    4. K点策略：
+       - 块体：Gamma中心网格，密度≥2π×0.03 Å⁻¹
+       - 表面：非对称网格（如8×8×1）
+       - 分子：Γ点+实空间截断
+    5. 关键参数逻辑：
+       - PREC=Accurate 时 ENCUT自动提升20%,且最低不低于500 eV
+       - ISMEAR选择：
+         • ISMEAR=N (N>0): method of Methfessel-Paxton order N。金属体系常用。做金属的结构优化的时候，通常用N=1或2的情况。并取SIGMA= 0.2。即（less than 1 meV per atom）。半导体或者绝缘体最好不要用这类方法，因为容易引起问题。
+         • ISMEAR=0: Gaussian smearing. 绝缘体可用。
+         • ISMEAR=-1: Fermi smearing.
+         • ISMEAR=-5: tetrahedron method with Blöchl corrections (use a Γ-centered k-mesh).半导体/绝缘体可用。因为计算更加精确，所有最后计算DOS的时候采用的方法。但是一开始的结构优化未必要这么精确。
+       - SIGMA=0.2（ISMEAR=1）或 0.05（ISMEAR=0），与具体的ISMEAR有关
+       - ISIF=3（全离子弛豫+晶胞形状优化）
+  expected_output: >
+    严格包含以下参数的配置文件，数值需体现专业判断：
+    INCAR必含参数：
+    PREC, ENCUT, EDIFF, EDIFFG, IBRION, ISIF, 
+    ISMEAR, SIGMA, NSW, ALGO, LREAL, LCHARG, IVDW
+    
+    KPOINTS必含参数：
+    自动网格密度、偏移模式、维度适配
+
+
+    输出的严格格式如下，'```'内只包含参数设置不包含注释，确保能直接用于提交：
+    "说明文字..."
+    KPOINTS:
+    ```
+    content
+    ```
+    INCAR:
+    ```
+    content
+    ```
+
+  agent: parameter_configurator

@@ -1,0 +1,11 @@
+{
+    "job_name": "bulk_Bi",
+    "job_type": "container",
+    "command": "source /opt/intel/oneapi/setvars.sh && mpirun -n 16 vasp_std | tee log",
+    "log_file": "log",
+    "backward_files": [],
+    "project_id": 29496,
+    "platform": "ali",
+    "machine_type": "c16_m16_cpu",
+    "image_name": "registry.dp.tech/dptech/prod-604/vasp:6"
+}

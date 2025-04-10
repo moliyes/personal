@@ -1,0 +1,9 @@
+SYSTEM = Bi6 structure optimization
+ENCUT = 520
+EDIFF = 1E-5
+IBRION = 2
+NSW = 50
+ISIF = 3
+ALGO = Fast
+LWAVE = .FALSE.
+LCHARG = .FALSE.

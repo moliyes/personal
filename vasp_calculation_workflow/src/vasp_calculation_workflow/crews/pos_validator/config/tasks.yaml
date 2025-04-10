@@ -1,0 +1,21 @@
+structure_validation_task:
+  description: >
+    对得到的POSCAR文件内容{poscar}执行全面结构验证，包含：
+    - 使用pymatgen解析并验证基础格式合规性
+    - 自动检测坐标越界、原子重叠等致命错误
+    - 评估表面/分子体系真空层充分性
+    - 验证原子类型与数量声明一致性
+    - 检查选择性动力学标记有效性
+  expected_output: >
+    结构化验证报告包含：
+    1. 验证状态标记（通过/警告/失败）
+    2. 错误明细表（含行号、错误代码、严重等级）
+    3. 自动修正建议（可执行修正方案）
+    4. 修正后POSCAR内容（若需要修正）
+    格式为：
+    POSCAR:
+    ```
+    POSCAR内容
+    ```
+
+  agent: structure_validator
