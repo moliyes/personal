@@ -1,0 +1,6 @@
+(1) cd vaspkit/
+(2) bash setup.sh
+(3) modify ~/.vaspkit file based on your machine environment 
+(4) source ~/.bashrc
+
+More details about the installation of VASPKIT can be found on its official website (https://vaspkit.com/installation.html).

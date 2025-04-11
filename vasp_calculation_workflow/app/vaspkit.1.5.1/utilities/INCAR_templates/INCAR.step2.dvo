@@ -1,0 +1,12 @@
+Electronic Relaxation
+  ISMEAR =  0
+  SIGMA  =  0.05
+  EDIFF  =  1E-08
+ 
+Obtain DFT Virtual Orbitals
+  ALGO    =  EXX
+  LOPTICS = .TRUE.
+  NELM    =  1
+  NEDOS   =  2000
+  NBANDS  =          (Set this parameters manually, 50-100 per atom)
+ 

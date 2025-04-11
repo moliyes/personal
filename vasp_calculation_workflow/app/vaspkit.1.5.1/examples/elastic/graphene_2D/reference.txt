@@ -1,0 +1,16 @@
++-------------------------- Summary ----------------------------+
+  Material Type: 2D Structure
+  Based on the quadratic-polynomial-fitting method
+  Stiffness Tensor  C11:   347.949 GPa*nm
+  Stiffness Tensor  C12:    61.809 GPa*nm
+  Stiffness Tensor  C66:   146.535 GPa*nm
+  Youngs's Modulus Y(x):   336.970 GPa*nm        [1] Well agreement with the experimental value of 340 GPa*nm 
+  Youngs's Modulus Y(y):   336.990 GPa*nm
+  Poisson's Ratio  v(x):   0.178                 [2] Well agreement with the previous theoretical value of 0.186 
+  Poisson's Ratio  v(y):   0.178
+  This 2D-Structure is Mechanically Stable.
+  Fitting Precision (Cij):  0.22E-05  0.19E-05  0.25E-04  0.51E-10
+ +---------------------------------------------------------------+
+
+[1] Lee, C., Wei, X., Kysar, J. W., & Hone, J. (2008). Measurement of the elastic properties and intrinsic strength of monolayer graphene. Science, 321(5887), 385-388.
+[2] Liu, F., Ming, P., & Li, J. (2007). Ab initio calculation of ideal strength and phonon instability of graphene under tension. Physical Review B, 76(6), 064120.

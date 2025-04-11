@@ -1,0 +1,47 @@
+data_CuO
+_audit_creation_date              2022-06-09
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'C2/C'
+_symmetry_Int_Tables_number       15
+_symmetry_cell_setting            monoclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x,y,-z+1/2
+  -x,-y,-z
+  x,-y,z+1/2
+  x+1/2,y+1/2,z
+  -x+1/2,y+1/2,-z+1/2
+  -x+1/2,-y+1/2,-z
+  x+1/2,-y+1/2,z+1/2
+_cell_length_a                    4.6530
+_cell_length_b                    3.4100
+_cell_length_c                    5.1080
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  99.5000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+CU     Cu    0.25000   0.25000   0.00000   0.00000  Uiso   1.00
+O      O     0.00000  -0.58400   0.25000   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+CU     O       1.948   1_565 S
+CU     O       1.948   7_545 S
+CU     O       1.947   3     S
+CU     O       1.947   5     S
+O      CU      1.948   1_545 S
+O      CU      1.948   2_545 S
+O      CU      1.947   3     S
+O      CU      1.947   4     S

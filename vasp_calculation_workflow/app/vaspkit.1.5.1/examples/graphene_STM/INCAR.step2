@@ -1,0 +1,6 @@
+partial charge densities:
+  LPARD = .TRUE.
+  LSEPK = .FALSE.
+  LSEPB = .FALSE.
+  NBMOD = -3
+  EINT = -0.1 0.1

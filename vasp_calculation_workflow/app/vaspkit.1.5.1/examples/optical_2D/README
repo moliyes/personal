@@ -1,0 +1,2 @@
+step 1: (Optional) bash optics.sh to get real.in and imag.in files from the vasprun.xml;
+step 2: run vaspkit with task 710. 

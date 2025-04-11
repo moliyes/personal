@@ -1,0 +1,16 @@
+# Frequency dependent dielectric tensor with and                                              
+# without local field effects in RPA                                                          
+# N.B.: beware one first has to have done a                                                   
+# calculation with ALGO=Exact, LOPTICS=.TRUE.                                                 
+# and a reasonable number of virtual states (see above)                                       
+# be sure to take the same number of bands as for                                             
+# the LOPTICS=.TRUE. calculation, otherwise the                                               
+# WAVEDER file is not read correctly                                                          
+  ALGO      =  CHI
+  NBANDS    =            (Take the same number of bands in the previous step)
+  ISMEAR    =  0
+  SIGMA     =  0.01
+  EDIFF     =  1.E-8
+  LWAVE     = .FALSE.
+  LCHARG    = .FALSE.
+  ! LRPA    = .FALSE.    (Set .FALAE. to include contributions from DFT exchange and correlation)

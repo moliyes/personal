@@ -1,0 +1,4 @@
+# transform matrix from primtive to conventional cell for FCC
+    -1     1     1
+     1    -1     1
+     1     1    -1

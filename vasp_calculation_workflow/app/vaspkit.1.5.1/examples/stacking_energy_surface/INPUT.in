@@ -1,0 +1,4 @@
+2                                                              ! 1 for prep-rocessing, 2 for post-processing
+1                                                              ! 1 for stacking potential energy surface calculation (meV)
+0.0  1.0  8                                                    ! sliding from 0 to 1.0 (fractional coordinates) with intervals of 8 along the a lattice vector
+0.0  1.0  8                                                    ! sliding from 0 to 1.0 (fractional coordinates) with intervals of 8 along the b lattice vector    

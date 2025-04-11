@@ -1,0 +1,9 @@
+Spin-Orbit Coupling Calculation
+  LSORBIT    = .TRUE.    (Activate SOC)
+  GGA_COMPAT = .FALSE.   (Apply spherical cutoff on gradient field)
+  VOSKOWN    =  1        (Enhances the magnetic moments and the magnetic energies)
+  LMAXMIX    =  4        (For d elements increase LMAXMIX to 4, f: LMAXMIX = 6)
+  ! SAXIS    =  0 0 1    (Direction of the magnetic field)
+  ! MAGMOM   =  0 0 3    (Set this parameters manually, Local magnetic moment parallel to SAXIS, 3*NIONS*1.0 for non-collinear magnetic systems)
+  ! NBANDS   =           (Set this parameters manually, 2 * number of bands of collinear-run)
+ 

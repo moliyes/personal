@@ -1,0 +1,13 @@
+   ISTART =1
+   ISPIN=1
+   ISMEAR =  1
+   SIGMA  =  0.2
+   NELM   =   60 
+   EDIFF  =  1E-08
+   NBANDS = 8
+   ENCUT=300
+   LREAL=.FALSE.
+   PREC=high
+   LWAVE  = F    
+   LCHARG = F  
+   ALGO= very 

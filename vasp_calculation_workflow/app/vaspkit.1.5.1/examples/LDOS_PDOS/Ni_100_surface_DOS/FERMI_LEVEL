@@ -1,0 +1,2 @@
+# Read Fermi Level from the FERMI_LEVEL.in file if it exists. Be sure to DELETE the FERMI_LEVEL.in file if you perform new calculation in the current folder.
+   -0.001130        # e.g., Set the value of VBM if you want to shift VBM to zero eV.

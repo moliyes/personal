@@ -1,0 +1,34 @@
+ENCUT   = 400
+EDIFF   = 1E-4
+ALGO    = Normal
+IALGO   = 48
+MAXMIX  = 40
+IBRION  = 0
+NSW     = 2000
+NBLOCK  = 1
+KBLOCK  = 10
+POTIM   = 2
+ISYM    = 0
+
+# NVT ensemble
+ISIF    = 2
+SMASS   = 2
+MDALGO  = 2
+TEBEG   = 400
+
+LREAL   = False
+NELMIN  = 4
+PREC    = Normal
+ISTART  = 0
+ISMEAR  = 2
+SIGMA   = 0.2
+
+NPAR    = 4
+NCORE   = 1
+NSIM    = 4
+NWRITE  = 0
+
+LCHARG  = .FALSE.
+LPLANE  = .TRUE.
+LWAVE   = .FALSE.
+IWAVPR  = 11

@@ -1,0 +1,23 @@
+Step 1: Prepare the ELASTIC.in file with following content;
+####################################################################################################
+1                                        ! 1 for preprocess, 2 for postprocess
+2D                                       ! 2D for slab, 3D for bulk
+0.5                                      ! Multinomial coefficients. For instance, set 0.5 (=1/2) when Strain-Energy U(epsilon)=1/2*C11*epsilon_xx^2, For more details see Eq. (4) in JPCC 121, 10224 (2017). If U are not sure, set to 1.0.
+11                                       ! number of strain
+-0.025 -0.020 -0.015 -0.010 -0.005 0.000 0.005 0.010 0.015 0.020 0.025     ! deformation magnitudes
+1.0 0.0 0.0 0.0 0.0 0.0                  !  Either set 1 (with strain) or 0 (no strain). e1, e2, e3, e4, e5, e6 are the elements of the stain matrix.
+####################################################################################################
+where 
+                +-                -+  
+                | e1   1/2e6  1/2e5|  
+strain(epsilon)=|1/2e6   e2   1/2e4|  
+                |1/2e5 1/2e4    e3 |  
+                |+-               -+  
+
+Step 2: Run vaspkit with task 201;
+
+Step 3: Perform VASP calculation in each sub-folder;
+
+Step 4: Edit the first line in the ELASTIC.in file (change 1 to 2)   
+
+Step 5: Run vaspkit with task 201 again.

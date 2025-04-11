@@ -1,0 +1,92 @@
+data_Li2MnO3_Na
+_audit_creation_date              2022-06-09
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'C2'
+_symmetry_Int_Tables_number       5
+_symmetry_cell_setting            monoclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x,y,-z
+  x+1/2,y+1/2,z
+  -x+1/2,y+1/2,-z
+_cell_length_a                    5.0102
+_cell_length_b                    8.6600
+_cell_length_c                    5.0897
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  109.4532
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+O1     O     0.24609   0.17859   0.77628   0.00000  Uiso   1.00
+O2     O     0.75391   0.82141   0.22372   0.00000  Uiso   1.00
+O3     O     0.21895  -0.00000   0.22747   0.00000  Uiso   1.00
+Na4    Na    0.00000   0.33859   0.50000   0.00000  Uiso   1.00
+Na5    Na    0.00000   0.66141   0.50000   0.00000  Uiso   1.00
+Na6    Na   -0.00000   0.00000   0.50000   0.00000  Uiso   1.00
+Li7    Li    0.00000   0.50000  -0.00000   0.00000  Uiso   1.00
+Mn8    Mn    0.00000   0.16688  -0.00000   0.00000  Uiso   1.00
+Mn9    Mn    0.00000   0.83312  -0.00000   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+O1     Na4     2.065   .     S
+O1     Na6     2.176   .     S
+O1     Mn8     1.940   1_556 S
+O1     Li7     2.084   3_546 S
+O1     Mn9     1.934   3_546 S
+O1     Na5     2.193   3_545 S
+O2     Na5     2.065   1_655 S
+O2     Na6     2.176   1_665 S
+O2     Mn9     1.940   1_655 S
+O2     Li7     2.084   3     S
+O2     Mn8     1.934   3     S
+O2     Na4     2.193   3     S
+O3     Na6     2.035   .     S
+O3     Mn8     1.946   .     S
+O3     Mn9     1.946   1_545 S
+O3     Na4     2.135   3_545 S
+O3     Na5     2.135   3_545 S
+O3     Li7     2.100   3_545 S
+Na4    O1      2.065   2_556 S
+Na4    O2      2.193   3_445 S
+Na4    O2      2.193   4_546 S
+Na4    O3      2.135   3_455 S
+Na4    O3      2.135   4_556 S
+Na5    O2      2.065   1_455 S
+Na5    O2      2.065   2_656 S
+Na5    O1      2.193   3_455 S
+Na5    O1      2.193   4_556 S
+Na5    O3      2.135   4_556 S
+Na5    O3      2.135   3_455 S
+Na6    O1      2.176   2_556 S
+Na6    O2      2.176   1_445 S
+Na6    O2      2.176   2_646 S
+Na6    O3      2.035   2_556 S
+Li7    O1      2.084   3_454 S
+Li7    O1      2.084   4_556 S
+Li7    O2      2.084   3_445 S
+Li7    O2      2.084   4_545 S
+Li7    O3      2.100   3_455 S
+Li7    O3      2.100   4     S
+Mn8    O1      1.940   1_554 S
+Mn8    O1      1.940   2_556 S
+Mn8    O3      1.946   2     S
+Mn8    O2      1.934   3_445 S
+Mn8    O2      1.934   4_545 S
+Mn9    O2      1.940   1_455 S
+Mn9    O2      1.940   2_655 S
+Mn9    O3      1.946   2_565 S
+Mn9    O3      1.946   1_565 S
+Mn9    O1      1.934   3_454 S
+Mn9    O1      1.934   4_556 S

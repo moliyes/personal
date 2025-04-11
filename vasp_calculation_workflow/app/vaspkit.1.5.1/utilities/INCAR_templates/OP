@@ -1,0 +1,11 @@
+Optical properties
+  ALGO     =  Exact
+  NBANDS   =             (Set this parameters manually)
+  LOPTICS  = .TRUE.
+  CSHIFT   =  0.100
+  NEDOS    =  2000
+  ISMEAR   =  0
+  SIGMA    =  0.01
+  EDIFF    =  1.E-8
+  ! LPEAD  = .TRUE.       (Write the derivative of the cell-periodic part of the orbitals)
+ 

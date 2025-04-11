@@ -1,0 +1,21 @@
+general:
+  ENMAX = 400
+  SYSTEM = CO adsorption on Ni(111)
+  ISMEAR = -5
+  ALGO = Fast
+    
+LDOS:
+  LORBIT = 11
+    
+workfunction:
+  IDIPOL = 3
+  LDIPOL = .TRUE.
+  LVHAR = .TRUE.
+#  LVTOT = .TRUE.
+
+
+# For the calculation of the DOS we use a tetrahedron method with Blöchl corrections (ISMEAR=-5).
+# By setting LVHAR=.TRUE. the Hartree part of the local potential is written to the file LOCPOT.
+# By setting LVTOT=.TRUE. the total local potential is written tot the file LOCPOT.
+# By setting IDIPOL=3 dipole corrections in the direction of the third lattice vector are enabled.
+# We have active dipole corrections to potential (=dipole layer).

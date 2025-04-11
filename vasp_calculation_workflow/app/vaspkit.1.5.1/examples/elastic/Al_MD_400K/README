@@ -1,0 +1,15 @@
+step 1: Prepare the VPKIT.in file with following content;                                                    
+###################################################################################################################
+1                                                              ! 1 for prep-rocessing, 3 for finite-temperature MD
+3D                                                             ! 2D for slab, 3D for bulk
+4                                                              ! number of strain
+-0.06 -0.03 0.03 0.06                                          ! magnitude of strain
+500                                                            ! The fisrt 500 MD frames will be skipped
+##################################################################################################################
+Step 2: Run vaspkit with task 200 (support stress-strain method only)                                                                       
+                                                                                                             
+Step 3: Perform VASP calculation in each sub-folder;                                                         
+                                                                                                             
+Step 4: Edit the first line in the VPKIT.in file (change 1 to 3)                                           
+                                                                                                             
+Step 5: Run vaspkit with task 200 again.    

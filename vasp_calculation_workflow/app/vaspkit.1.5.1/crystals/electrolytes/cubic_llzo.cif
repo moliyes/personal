@@ -1,0 +1,642 @@
+# Electronic Supplementary Material (ESI) for Physical Chemistry Chemical Physics
+# This journal is Š The Owner Societies 2011
+
+
+data_global
+_journal_name_full               Phys.Chem.Chem.Phys.(PCCP)
+
+_journal_coden_Cambridge         1326
+_journal_volume                  ?
+_journal_page_first              ?
+_journal_year                    ?
+
+_publ_contact_author_name        
+'Juergen Janek' # Name of author for correspondence
+_publ_contact_author_address     # Address of author for correspondence
+;
+Physikalisch-Chemisches Institut, Justus Liebig Universitat
+Giessen, Heinrich-Buff-Ring 58,35392 Giessen, Germany
+;
+
+_publ_contact_author_email       juergen.janek@phys.chemie.uni-giessen.de
+_publ_contact_author_fax         ?
+_publ_contact_author_phone       +49(0)641-9934501
+
+_publ_contact_letter             
+;
+Please consider this CIF for publication. I certify that this contibution is the
+original work of those listed as authors; that it has not been published
+before (in any language or medium) and is not being considered for publication
+elsewhere; that all authors concur with and are aware of the submission; that
+all workers involved in the study are listed as authors or given proper credit
+in the acknowledgements; that I have obtained permission for and acknowledged
+the source of any excerpts from other copyright works; and that to the best of
+my knowledge the paper contains no statements which are libellous, unlawful or
+in any way actionable. All coauthors have made significant scientific
+contributions to the work reported, including the ideas and their execution,
+and share responsibility and accountability for the results.
+;
+_publ_requested_coeditor_name    ?
+_publ_requested_category         ? # Acta C: one of CI/CM/CO/FI/FM/FO
+
+# Definition of non standard CIF items (Reliability indices used in FULLPROF)
+
+loop_
+_publ_manuscript_incl_extra_item
+_publ_manuscript_incl_extra_info
+_publ_manuscript_incl_extra_defn
+# Name Explanation Standard?
+# ------ ----------- ---------
+'_pd_proc_ls_prof_cR_factor' 'Prof. R-factor CORRECTED for background' no
+'_pd_proc_ls_prof_cwR_factor' 'wProf.R-factor CORRECTED for background' no
+'_pd_proc_ls_prof_cwR_expected' 'wProf.Expected CORRECTED for background' no
+'_pd_proc_ls_prof_chi2' 'Chi-square for all considered points' no
+'_pd_proc_ls_prof_echi2' 'Chi-2 for points with Bragg contribution' no
+#=============================================================================
+
+# 3. TITLE AND AUTHOR LIST
+
+_publ_section_title              
+;
+Structure and dynamics of the fast lithium ion conductor "Li7La3Zr2O12"
+;
+_publ_section_title_footnote     .
+
+# The loop structure below should contain the names and addresses of all
+# authors, in the required order of publication. Repeat as necessary.
+
+loop_
+_publ_author_name
+_publ_author_address
+_publ_author_footnote
+H.Buschmann
+;
+Physikalisch-Chemisches Institut, Justus Liebig Universitat Giessen,
+Heinrich-Buff-Ring 58, 35392 Giessen, Germany
+;
+;
+?
+;
+J.Dolle
+;
+Physikalisch-Chemisches Institut, Justus Liebig Universitat Giessen,
+Heinrich-Buff-Ring 58, 35392 Giessen, Germany
+;
+.
+S.Berendts
+;
+Physikalisch-Chemisches Institut, Justus Liebig Universitat Giessen,
+Heinrich-Buff-Ring 58, 35392 Giessen, Germany
+;
+.
+A.Kuhn
+;
+Institut fur Physikalische Chemie und Elektrochemie, Leibniz Universitat
+Hannover, Callinstrasse 3a, 30167 Hannover, Germany
+;
+.
+P.Bottke
+;
+Institut fur Physikalische Chemie und Elektrochemie, Leibniz Universitat
+Hannover, Callinstrasse 3a, 30167 Hannover, Germany
+;
+.
+M.Wilkening
+;
+Institut fur Physikalische Chemie und Elektrochemie, Leibniz Universitat
+Hannover, Callinstrasse 3a, 30167 Hannover, Germany
+;
+.
+;
+P.Heitjans
+;
+;
+Institut fur Physikalische Chemie und Elektrochemie, Leibniz Universitat
+Hannover, Callinstrasse 3a, 30167 Hannover, Germany
+;
+.
+A.Senyshyn
+;
+Forschungsneutronenquelle Heinz Maier-Leibnitz (FRM II), Technische Universitat
+Munchen, Lichtenbergstrasse 1, 85747 Garching b. Munchen, Germany
+;
+.
+H.Ehrenberg
+;
+Institution
+City
+State
+Postcode
+UK
+;
+.
+A.Lotnyk
+;
+Faculty of Engineering, Institute for Material Science, Synthesis and Real
+Structure, Christian Albrechts Universitaet zu Kiel, Kaiserstr.2, D-24143 Kiel,
+Germany
+;
+.
+V.Duppel
+;
+Max Planck Institute for Solid State Research, Heisenbergstr. 1, D-70569
+Stuttgart, Germany
+;
+.
+L.Kienle
+;
+Faculty of Engineering, Institute for Material Science, Synthesis and Real
+Structure, Christian Albrechts Universitat zu Kiel, Kaiserstr.2, D-24143 Kiel,
+Germany
+;
+.
+J.Janek
+;
+Physikalisch-ChemischesInstitut, Justus Liebig Universitat
+Giessen,Heinrich-Buff-Ring 58,35392 Giessen, Germany
+;
+.
+
+#=============================================================================
+
+# 4. TEXT
+
+_publ_section_synopsis           .
+_publ_section_abstract           
+;
+The redetermined structure of Garnet-type Lithium Lanthanum Zirconium
+Oxide,Li~7~La~3~Zr~2~O~12~, has cubic (<i>Ia</i>\=3<i>d</i>)
+symmetry at 4 K. This is of interest with respect
+to electrochemical properties.
+The structure exhibits strong disorder of the Li-cations.
+;
+_publ_section_comment            
+;
+(type here to add)
+;
+_publ_section_exptl_prep         
+# Details of the preparation of the sample(s)
+# should be given here.
+;
+LLZO was prepared by a high temperature route using LiOH (Chempur, 99 %,
+anhydrous), gamma-Al~2~O~3~ (Merck, anhydrous),
+ZrO~2~ (Chempur, 99,9 %) and La~2~O~3~ (Chempur 99,99 %, dried at
+900\%C for 12h).
+;
+_publ_section_exptl_refinement   
+;
+Refinement has been performed by the full profile Rietveld method. The powder
+diffraction pattern was indexed in a cubic system which was supplemented by
+weak reflections from lithium carbonate.
+;
+_publ_section_references         
+;
+(type here to add)
+;
+_publ_section_figure_captions    
+;
+
+;
+
+#=============================================================================
+
+#=============================================================================
+# If more than one structure is reported, the remaining sections should be
+# completed per structure. For each data set, replace the '?' in the
+# data_? line below by a unique identifier.
+
+data_Li7La3Zr2O12
+_database_code_depnum_ccdc_archive 'CCDC 833727'
+#TrackingRef 'LixLa3Zr2O12_300K_final3.cif'
+
+_refine_ls_weighting_scheme      sigma
+#Added by publCIF
+
+_refine_ls_extinction_method     no
+#Added by publCIF
+
+_refine_ls_extinction_coef       0
+#Added by publCIF
+
+_refine_ls_weighting_details     1/[Y~i~+\s(Y~i~)]
+#Added by publCIF
+
+_refine_ls_shift/su_max          0
+#Added by publCIF
+
+_atom_sites_solution_secondary   heavy
+#Added by publCIF
+
+_atom_sites_solution_primary     heavy
+#Added by publCIF
+
+_refine_ls_matrix_type           full
+#Added by publCIF
+
+_exptl_absorpt_correction_T_min  ?
+#Added by publCIF
+
+_diffrn_ambient_pressure         100
+#Added by publCIF
+
+_pd_char_colour                  white
+#Added by publCIF
+
+_pd_char_particle_morphology     'particle size <40 mkm'
+#Added by publCIF
+
+_pd_prep_pressure                100
+#Added by publCIF
+
+_pd_prep_temperature             1130
+#Added by publCIF
+
+_pd_spec_size_thick              40
+#Added by publCIF
+
+_pd_spec_size_equat              13
+#Added by publCIF
+
+_pd_spec_size_axial              13
+#Added by publCIF
+
+_diffrn_radiation_source         'research reactor FRM-II'
+#Added by publCIF
+
+_refine_ls_number_constraints    0
+#Added by publCIF
+
+_computing_data_reduction        powder
+#Added by publCIF
+
+_computing_cell_refinement       Rietveld
+#Added by publCIF
+
+#=============================================================================
+
+# 5. CHEMICAL DATA
+
+_chemical_name_systematic        
+; ?
+;
+_chemical_name_common            'Lithium Lanthanum Zirconium Oxide'
+_chemical_formula_moiety         ?
+_chemical_formula_structural     'Li7 La3 Zr2 O12'
+_chemical_formula_analytical     'Al0.196 Li6.060 La3 Zr2 O12'
+_chemical_formula_iupac          Al~0.196~Li~6.060~La~3~Zr~2~O~12~
+_chemical_formula_sum            'Al0.196 La3 Li6.060 O12 Zr2'
+_chemical_formula_weight         838.505
+_chemical_melting_point          ?
+_chemical_compound_source        ? # for minerals and
+# natural products
+
+loop_
+_atom_type_symbol
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+Li -0.19000 V.F._Sears_Neutron_News_3_26_(1992)
+Al 0.34490 V.F._Sears_Neutron_News_3_26_(1992)
+La 0.82400 V.F._Sears_Neutron_News_3_26_(1992)
+Zr 0.71600 V.F._Sears_Neutron_News_3_26_(1992)
+O 0.58030 V.F._Sears_Neutron_News_3_26_(1992)
+
+#=============================================================================
+
+# 6. POWDER SPECIMEN AND CRYSTAL DATA
+
+_symmetry_cell_setting           Cubic
+_symmetry_space_group_name_H-M   'I a -3 d'
+_symmetry_space_group_name_Hall  '-I 4bd 2c 3'
+
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/4-y,3/4+x,1/4+z
+3 -x,1/2-y,z
+4 1/4+y,1/4-x,3/4+z
+5 1/4+x,1/4-z,3/4+y
+6 x,-y,1/2-z
+7 3/4+x,1/4+z,1/4-y
+8 3/4+z,1/4+y,1/4-x
+9 1/2-x,y,-z
+10 1/4-z,3/4+y,1/4+x
+11 z,x,y
+12 y,z,x
+13 -y,1/2-z,x
+14 z,-x,1/2-y
+15 1/2-y,z,-x
+16 -z,1/2-x,y
+17 1/2-z,x,-y
+18 y,-z,1/2-x
+19 3/4+y,1/4+x,1/4-z
+20 1/4-y,1/4-x,1/4-z
+21 1/4-x,3/4+z,1/4+y
+22 1/4-x,1/4-z,1/4-y
+23 1/4+z,1/4-y,3/4+x
+24 1/4-z,1/4-y,1/4-x
+25 -x,-y,-z
+26 1/4+y,3/4-x,1/4-z
+27 x,1/2+y,-z
+28 1/4-y,1/4+x,3/4-z
+29 1/4-x,1/4+z,3/4-y
+30 -x,y,1/2+z
+31 3/4-x,1/4-z,1/4+y
+32 3/4-z,1/4-y,1/4+x
+33 1/2+x,-y,z
+34 1/4+z,3/4-y,1/4-x
+35 -z,-x,-y
+36 -y,-z,-x
+37 y,1/2+z,-x
+38 -z,x,1/2+y
+39 1/2+y,-z,x
+40 z,1/2+x,-y
+41 1/2+z,-x,y
+42 -y,z,1/2+x
+43 3/4-y,1/4-x,1/4+z
+44 1/4+y,1/4+x,1/4+z
+45 1/4+x,3/4-z,1/4-y
+46 1/4+x,1/4+z,1/4+y
+47 1/4-z,1/4+y,3/4-x
+48 1/4+z,1/4+y,1/4+x
+49 1/2+x,1/2+y,1/2+z
+50 3/4-y,5/4+x,3/4+z
+51 1/2-x,1-y,1/2+z
+52 3/4+y,3/4-x,5/4+z
+53 3/4+x,3/4-z,5/4+y
+54 1/2+x,1/2-y,1-z
+55 5/4+x,3/4+z,3/4-y
+56 5/4+z,3/4+y,3/4-x
+57 1-x,1/2+y,1/2-z
+58 3/4-z,5/4+y,3/4+x
+59 1/2+z,1/2+x,1/2+y
+60 1/2+y,1/2+z,1/2+x
+61 1/2-y,1-z,1/2+x
+62 1/2+z,1/2-x,1-y
+63 1-y,1/2+z,1/2-x
+64 1/2-z,1-x,1/2+y
+65 1-z,1/2+x,1/2-y
+66 1/2+y,1/2-z,1-x
+67 5/4+y,3/4+x,3/4-z
+68 3/4-y,3/4-x,3/4-z
+69 3/4-x,5/4+z,3/4+y
+70 3/4-x,3/4-z,3/4-y
+71 3/4+z,3/4-y,5/4+x
+72 3/4-z,3/4-y,3/4-x
+73 1/2-x,1/2-y,1/2-z
+74 3/4+y,5/4-x,3/4-z
+75 1/2+x,1+y,1/2-z
+76 3/4-y,3/4+x,5/4-z
+77 3/4-x,3/4+z,5/4-y
+78 1/2-x,1/2+y,1+z
+79 5/4-x,3/4-z,3/4+y
+80 5/4-z,3/4-y,3/4+x
+81 1+x,1/2-y,1/2+z
+82 3/4+z,5/4-y,3/4-x
+83 1/2-z,1/2-x,1/2-y
+84 1/2-y,1/2-z,1/2-x
+85 1/2+y,1+z,1/2-x
+86 1/2-z,1/2+x,1+y
+87 1+y,1/2-z,1/2+x
+88 1/2+z,1+x,1/2-y
+89 1+z,1/2-x,1/2+y
+90 1/2-y,1/2+z,1+x
+91 5/4-y,3/4-x,3/4+z
+92 3/4+y,3/4+x,3/4+z
+93 3/4+x,5/4-z,3/4-y
+94 3/4+x,3/4+z,3/4+y
+95 3/4-z,3/4+y,5/4-x
+96 3/4+z,3/4+y,3/4+x
+
+_cell_length_a                   12.9727(2)
+_cell_length_b                   12.9727(2)
+_cell_length_c                   12.9727(2)
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_volume                     2183.19(5)
+_cell_formula_units_Z            8
+_cell_measurement_temperature    300
+_cell_special_details            
+; ?
+;
+_exptl_crystal_density_diffrn    5.102
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             230
+
+# The next three fields give the specimen dimensions in mm. The equatorial
+# plane contains the incident and diffracted beam.
+
+# The next five fields are character fields that describe the specimen.
+
+_pd_spec_mounting                
+# This field should be
+# used to give details of the
+# container.
+'thin-wall cylinder vanadium container'
+_pd_spec_mount_mode              transmission # options are 'reflection'
+# or 'transmission'
+_pd_spec_shape                   cylinder # options are 'cylinder'
+# 'flat_sheet' or 'irregular'
+
+# The next four fields are normally only needed for transmission experiments.
+
+_exptl_absorpt_coefficient_mu    0.0544
+_exptl_absorpt_correction_type   cylinder
+_exptl_absorpt_process_details   none
+
+#=============================================================================
+
+# 7. EXPERIMENTAL DATA
+
+_exptl_special_details           
+; ?
+;
+
+# The following item is used to identify the equipment used to record
+# the powder pattern when the diffractogram was measured at a laboratory
+# other than the authors' home institution, e.g. when neutron or synchrotron
+# radiation is used.
+
+_pd_instr_location               
+; ?
+;
+_pd_calibration_special_details  
+# description of the method used
+# to calibrate the instrument
+; ?
+;
+
+_diffrn_ambient_temperature      300
+_diffrn_source                   'nuclear reactor'
+_diffrn_radiation_type           'Constant Wavelength Neutron Diffraction'
+_diffrn_radiation_wavelength     1.54820
+_diffrn_source_type              SPODI
+
+_diffrn_radiation_monochromator  Ge551
+_diffrn_measurement_device_type  'high-resolution neutron powder'
+_diffrn_measurement_method       transmission
+_diffrn_detector_area_resol_mean ? # Not in version 2.0.1
+_diffrn_detector                 multidetector
+_diffrn_detector_type            SPODI # make or model of detector
+_pd_meas_scan_method             step # options are 'step', 'cont',
+# 'tof', 'fixed' or
+# 'disp' (= dispersive)
+_pd_meas_special_details         
+; ?
+;
+
+# The following four items give details of the measured (not processed)
+# powder pattern. Angles are in degrees.
+
+_pd_meas_number_of_points        2958
+_pd_meas_2theta_range_min        4.00
+_pd_meas_2theta_range_max        151.9
+_pd_meas_2theta_range_inc        0.05
+
+#=============================================================================
+
+# 8. REFINEMENT DATA
+
+_refine_special_details          
+; ?
+;
+
+# Use the next field to give any special details about the fitting of the
+# powder pattern.
+
+_pd_proc_ls_special_details      
+; ?
+;
+
+# The next three items are given as text.
+
+_pd_proc_ls_profile_function     pseudo-Voight
+_pd_proc_ls_background_function  ?
+_pd_proc_ls_pref_orient_corr     no
+
+# The following profile R-factors are NOT CORRECTED for background
+# The sum is extended to all non-excluded points.
+# These are the current CIF standard
+
+_pd_proc_ls_prof_R_factor        2.22
+_pd_proc_ls_prof_wR_factor       2.79
+_pd_proc_ls_prof_wR_expected     0.94
+
+# The following profile R-factors are CORRECTED for background
+# The sum is extended to all non-excluded points.
+# These items are not in the current CIF standard, but are defined above
+
+_pd_proc_ls_prof_cR_factor       10.97
+_pd_proc_ls_prof_cwR_factor      8.91
+_pd_proc_ls_prof_cwR_expected    3.00
+
+# The following items are not in the CIF standard, but are defined above
+
+_pd_proc_ls_prof_chi2            8.8095
+_pd_proc_ls_prof_echi2           8.8095
+
+# Items related to LS refinement
+
+_refine_ls_R_I_factor            3.42
+_refine_ls_number_reflns         207
+_refine_ls_number_parameters     84
+_refine_ls_number_restraints     0
+
+# The following four items apply to angular dispersive measurements.
+# 2theta minimum, maximum and increment (in degrees) are for the
+# intensities used in the refinement.
+
+_pd_proc_2theta_range_min        4.07080
+_pd_proc_2theta_range_max        151.97080
+_pd_proc_2theta_range_inc        0.05
+_pd_proc_wavelength              1.548200
+
+_pd_block_diffractogram_id       ? # The id used for the block containing
+# the powder pattern profile (section 11)
+
+# Give appropriate details in the next two text fields.
+
+_pd_proc_info_excluded_regions   '0.00-14.00, 41.30-42.50, 151.92-180.00'
+_pd_proc_info_data_reduction     ?
+
+# The following items are used to identify the programs used.
+
+_computing_data_collection       \q2/\q
+_computing_structure_solution    known
+_computing_structure_refinement  FULLPROF
+_computing_molecular_graphics    Diamond
+_computing_publication_material  pubCIF
+
+#=============================================================================
+
+# 9. ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type # Not in version 2.0.1
+_atom_site_type_symbol
+Li1 -0.12500 0.00000 0.25000 0.054(5) 0.54 Uiso Li
+Al1 -0.12500 0.00000 0.25000 0.054(5) 0.06530 Uiso Al
+Li2 0.1004(8) 0.6853(8) 0.5769(8) 0.031(3) 0.37 Uiso Li
+La1 0.00000 0.25000 0.12500 0.0106(6) 1.00000 Uani La
+Zr1 0.00000 0.00000 0.00000 0.0095(3) 1.00000 Uani Zr
+O1 -0.03161(8) 0.05454(9) 0.14940(8) 0.0148(6) 1.00000 Uani O
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+La1 0.0095(4) 0.0095(4) 0.0128(9) 0.0035(6) 0.00000 0.00000 La
+Zr1 0.0095(3) 0.0095(3) 0.0095(3) 0.0005(5) 0.0005(5) 0.0005(5) Zr
+O1 0.0170(6) 0.0179(6) 0.0094(5) 0.0018(5) -0.0006(4) -0.0026(5) O
+
+# Note: if the displacement parameters were refined anisotropically
+# the U matrices should be given as for single-crystal studies.
+
+#=============================================================================
+
+# 10. DISTANCES AND ANGLES / MOLECULAR GEOMETRY
+
+_geom_special_details            ?
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Zr1 O1 .-3. 1 2.104(1) no
+La1 O1 .32 1 2.516(1) no
+La1 O1 .32 1 2.588(1) no
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Zr1 O1 1 .-3. 1 180.00(4) no
+
+#=============================================================================
+
+# The following lines are used to test the character set of files sent by
+# network email or other means. They are not part of the CIF data set.
+# abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+# !@#$%^&*()_+{}:"~<>?|\-=[];'`,./
+

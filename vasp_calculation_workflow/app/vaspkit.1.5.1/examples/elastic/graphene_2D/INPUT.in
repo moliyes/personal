@@ -1,0 +1,4 @@
+1                                                              ! 1 for prep-rocessing, 2 for post-processing
+2D                                                             ! 2D for slab, 3D for bulk
+9                                                              ! number of strain
+-0.020 -0.015 -0.010 -0.005 0.000 0.005 0.010 0.015 0.020      ! magnitude of strain 

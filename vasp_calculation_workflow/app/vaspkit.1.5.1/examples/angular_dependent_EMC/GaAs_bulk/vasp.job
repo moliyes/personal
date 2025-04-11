@@ -1,0 +1,7 @@
+#!/bin/sh
+#PBS -l select=1
+#PBS -q P_016
+#PBS -l walltime=72:00:00
+#PBS -N angular_dependent_EMC.GaAs_bulk
+cd ${PBS_O_WORKDIR}
+aprun -n 36 -N 36 -j 1 /work/app/VASP6/vasp.6.2.1/bin/vasp_std

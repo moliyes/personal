@@ -1,0 +1,18 @@
+INPUT_PARAMETERS
+#Parameters	(General)
+suffix                  ABACUS
+ecutwfc                 100             # Rydberg
+scf_thr                 1e-8		# Rydberg
+basis_type              lcao            
+calculation             relax	
+smearing_method 		mp
+
+#Geometry relaxation
+relax_nmax       		200
+relax_method     		cg
+cal_force        		1
+force_thr_ev     		1e-3
+cal_stress       		1
+stress_thr       		0.01
+
+symmetry         	    1

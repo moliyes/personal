@@ -1,0 +1,4 @@
+Step 1: cp INCAR.step1 INCAR and perform vasp calculation to get CHGCAR file;
+Step 2: cp INCAR.step2 INCAR and run vaspkit -task 621;
+Step 3: perform vasp calculations in each sub-directory;
+Step 4: Edit the first line in the VPKIT.in file (change 1 to 2) and run vaspkit -task 621 again. 

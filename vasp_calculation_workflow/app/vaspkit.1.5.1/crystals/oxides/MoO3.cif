@@ -1,0 +1,51 @@
+data_MoO3
+_audit_creation_date              2022-06-09
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'PBNM'
+_symmetry_Int_Tables_number       62
+_symmetry_cell_setting            orthorhombic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  x+1/2,-y+1/2,-z
+  -x,-y,z+1/2
+  -x+1/2,y+1/2,-z+1/2
+  -x,-y,-z
+  -x+1/2,y+1/2,z
+  x,y,-z+1/2
+  x+1/2,-y+1/2,z+1/2
+_cell_length_a                    3.9628
+_cell_length_b                    13.8550
+_cell_length_c                    3.6964
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+MO1    Mo    0.09989   0.10164   0.25000   0.00000  Uiso   1.00
+O1     O     0.43500   0.43510   0.25000   0.00000  Uiso   1.00
+O2     O     0.52120   0.08660   0.25000   0.00000  Uiso   1.00
+O3     O     0.03730   0.22140   0.25000   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+MO1    O2      1.683   .     S
+MO1    O3      1.678   .     S
+MO1    O1      2.312   4_545 S
+MO1    O2      2.303   1_455 S
+MO1    O1      2.025   2_456 S
+MO1    O1      2.025   2_455 S
+O1     MO1     2.312   4     S
+O1     MO1     2.025   2_556 S
+O1     MO1     2.025   2     S
+O2     MO1     2.303   1_655 S

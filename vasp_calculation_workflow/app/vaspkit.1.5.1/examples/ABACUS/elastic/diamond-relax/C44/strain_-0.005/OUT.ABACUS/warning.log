@@ -1,0 +1,1073 @@
+ In SCAN_BEGIN, can't find: LATTICE_PARAMETERS block.
+ In SCAN_BEGIN, can't find: <PP_MESH block.
+ AUTO_SET NBANDS to 0
+ AUTO_SET NBANDS to 26
+      Processor           Atom
+              1             54
+              2             54
+                            startmag_type = 2
+                       charge from rho_at = 3.99303
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                 charge before normalized = 32
+                  charge after normalized = 32
+                 charge before normalized = 32.0001095280186
+                  charge after normalized = 31.9999999999998
+                 charge before normalized = 32.0001501796477
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.000156390705
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561955187
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561671908
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561712355
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561740324
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561734745
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561734615
+                  charge after normalized = 32
+                 charge before normalized = 32.000156173475
+                  charge after normalized = 31.9999999999999
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 31.9999999999999
+                  charge after normalized = 32
+                 charge before normalized = 32.0001562226954
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001562207711
+                  charge after normalized = 31.9999999999998
+                 charge before normalized = 32.0001562208022
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001562208266
+                  charge after normalized = 32
+                 charge before normalized = 32.0001562208273
+                  charge after normalized = 32
+                 charge before normalized = 32.0001562208235
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001562208239
+                  charge after normalized = 32
+                 charge before normalized = 32.000156220824
+                  charge after normalized = 31.9999999999999
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 31.9999999999998
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561819579
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561835149
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561835299
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561835127
+                  charge after normalized = 32
+                 charge before normalized = 32.000156183511
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561835134
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561835132
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32.0000000000001
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561888819
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561886498
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561886421
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561886457
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561886462
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561886458
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32
+                  charge after normalized = 32
+                 charge before normalized = 32.0001562000371
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561993511
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561993256
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561993365
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561993377
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.000156199337
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561993369
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561993369
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 31.9999999999997
+                  charge after normalized = 32
+                 charge before normalized = 32.000156196577
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561966537
+                  charge after normalized = 31.9999999999998
+                 charge before normalized = 32.0001561966266
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561966173
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561966161
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561966164
+                  charge after normalized = 32.0000000000001
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32.0000000000001
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561896779
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561897641
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561897279
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561897167
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561897156
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561897163
+                  charge after normalized = 31.9999999999999
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 31.9999999999999
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561880571
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561881469
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561881486
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561881471
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561881469
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561881471
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 31.9999999999999
+           total electron number from rho = 31.9999999999999
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32.0000000000001
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561845718
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561848428
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561848482
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561848437
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561848432
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561848435
+                  charge after normalized = 32.0000000000001
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 31.9999999999999
+           total electron number from rho = 31.9999999999999
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 31.9999999999998
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561845462
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561845818
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561845845
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561845841
+                  charge after normalized = 32
+                 charge before normalized = 32.000156184584
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561845841
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32.0000000000001
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561835395
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561836468
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561836544
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561836536
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561836531
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561836531
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32.0000000000001
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561831626
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561831944
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561831916
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561831909
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561831909
+                  charge after normalized = 31.9999999999999
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561819648
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561820513
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561820434
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561820418
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561820414
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561820416
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 31.9999999999999
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561815963
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561816432
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561816446
+                  charge after normalized = 32.0000000000002
+                 charge before normalized = 32.0001561816441
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.000156181644
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561816439
+                  charge after normalized = 32.0000000000001
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32.0000000000002
+                  charge after normalized = 32
+                 charge before normalized = 32.000156180142
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561802594
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561802628
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561802615
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561802612
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561802612
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 31.9999999999999
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561804791
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561804697
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561804706
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561804707
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561804708
+                  charge after normalized = 32.0000000000001
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32.0000000000001
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561808619
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561808432
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.000156180845
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561808454
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561808455
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561808455
+                  charge after normalized = 31.9999999999999
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32.0000000000001
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561809487
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561809437
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561809434
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561809433
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561809434
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 31.9999999999999
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812261
+                  charge after normalized = 32
+                 charge before normalized = 32.000156181211
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812103
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561812101
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561812101
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812101
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561811675
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561811712
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561811705
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561811706
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561811705
+                  charge after normalized = 31.9999999999999
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 31.9999999999999
+           total electron number from rho = 31.9999999999999
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561810951
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561811015
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561811005
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561811003
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561811004
+                  charge after normalized = 31.9999999999999
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 31.9999999999999
+           total electron number from rho = 31.9999999999999
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 31.9999999999997
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561810869
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561810892
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561810892
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561810893
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561810892
+                  charge after normalized = 32.0000000000001
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32.0000000000001
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561810356
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561810429
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561810428
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561810429
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561810429
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561810749
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561810746
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561810741
+                  charge after normalized = 32.0000000000002
+                 charge before normalized = 32.0001561810742
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561810741
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 31.9999999999999
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561811621
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561811613
+                  charge after normalized = 32
+                 charge before normalized = 32.00015618116
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561811598
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561811598
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561811642
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561811636
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561811644
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561811646
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561811647
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 31.9999999999999
+                  charge after normalized = 32
+                 charge before normalized = 32.000156181165
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561811649
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.000156181165
+                  charge after normalized = 32
+                 charge before normalized = 32.000156181165
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32.0000000000002
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561811853
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561811851
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561811849
+                  charge after normalized = 32
+                 charge before normalized = 32.000156181185
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.000156181185
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32
+                  charge after normalized = 32
+                 charge before normalized = 32.000156181234
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561812333
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812326
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812326
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812326
+                  charge after normalized = 32.0000000000001
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 31.9999999999999
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812443
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001561812445
+                  charge after normalized = 32
+                 charge before normalized = 32.000156181244
+                  charge after normalized = 32
+                 charge before normalized = 32.000156181244
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812441
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812471
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561812471
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.000156181247
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561812469
+                  charge after normalized = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 31.9999999999999
+           total electron number from rho = 31.9999999999999
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 32.0000000000002
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812518
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812518
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812517
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812517
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812518
+                  charge after normalized = 31.9999999999999
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 31.9999999999999
+           total electron number from rho = 31.9999999999999
+                                should be = 32
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32
+      Processor           Atom
+              1             54
+              2             54
+                 charge before normalized = 31.9999999999999
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812657
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812658
+                  charge after normalized = 31.9999999999998
+                 charge before normalized = 32.0001561812656
+                  charge after normalized = 32
+                 charge before normalized = 32.0001561812658
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001561812656
+                  charge after normalized = 32.0000000000001
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32.0000000000001
+           total electron number from rho = 32.0000000000001
+                                should be = 32

@@ -1,5 +1,5 @@
-Automatic k-point generation
+K-Spacing Value to Generate K-Mesh: 0.040
 0
 Gamma
-5 5 4
-0 0 0
+   9   9   2
+0.0  0.0  0.0

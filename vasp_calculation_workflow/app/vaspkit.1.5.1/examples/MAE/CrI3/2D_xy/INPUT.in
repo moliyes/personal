@@ -1,0 +1,3 @@
+1                              ! 1 for preprocess, 2 for postprocess
+0 360 24                       ! Phi, Spherical coordinate system
+90 90 1                        ! 0<= theta <=180, 90 degree means in x-y plane

@@ -1,0 +1,11 @@
+1) The pre- and post-processing data produced by VASPKIT may be used in any publications provided that its use is explicitly acknowledged. A suitable reference for VASPKIT is:
+   [1] V. Wang, N. Xu, J.-C. LIU, G. Tang, W.-T. Geng, VASPKIT: A User-Friendly Interface Facilitating High-Throughput Computing and Analysis Using VASP Code, Computer Physics Communications, 267, 108033 (2021).
+
+2) Please cite the following work if you used the module 'Thermal corrections for Gas' and the module 'Symmerty Finding for Molecules and Clusters':
+   [1] Pilati, T. and A. Forni, SYMMOL: a program to find the maximum symmetry group in an atom cluster, given a prefixed tolerance, Journal of Applied Crystallography 31, 503-504 (1998).
+
+3) Please cite the following work if you used the module 'K-Path utility':
+   [1] A. Togo and I. Tanaka, Spglib: a software library for crystal symmetry search, arXiv:1808.015900.
+   [2] Y. Hinuma, G. Pizzi, Y. Kumagai, F. Oba, I. Tanaka, Band structure diagram paths based on crystallography, Computational Materials Science 128, 140 (2017).
+   [3] V. Wang, G. Tang, Y.-C. Liu, R.-T. Wang, H. Mizuseki, Y. Kawazeo, J. Nara, W.-T. Geng, High-Throughput Computational Screening of Two-Dimensional Semiconductors, Journal of Physical Chemistry Letters 13, 11581 (2022). 
+

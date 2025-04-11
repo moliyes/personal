@@ -1,0 +1,21 @@
+1                                                                 ! 1 for prep-rocessing, 2 for post-processing                                              
+8                                                                 ! EOS type                                                                                 
+10 13.7 100                                                       ! the variation range of cell volume to fit (in Angstrom^3), and interval                  
+10                                                                ! number of jobs                                                                           
+0.93 0.94 0.95 0.96 0.97 0.98 0.99 1.00 1.01 1.02 1.03 1.04 1.05  ! EOS-lattice scaling factor                                                               
+
+
+EOS type:
+ [1]: Murnaghan EOS                      
+ [2]: Birch-Murnaghan 3rd-order EOS      
+ [3]: Birch-Murnaghan 4th-order EOS      
+ [4]: Mie–Gruneisen                      
+ [5]: Pack–Evans–James                   
+ [6]: Poirier-Tarantola EOS              
+ [7]: Tait EOS                           
+ [8]: Vinet EOS                          
+ [9]: Natural strain 3rd-order EOS       
+[10]: Natural strain 4th-order EOS       
+[11]: Universal EOS                      
+[12]: Cubic polynomial in (V-V0)         
+ 

@@ -1,0 +1,4 @@
+Read transformation matrix from the TRANSMAT.in file if it exists.
+  1  0  0   # must be three integers
+  1  2  0   # must be three integers
+  0  0  1   # must be three integers

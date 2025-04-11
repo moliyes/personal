@@ -1,0 +1,16 @@
+Electronic Relaxation
+  ISMEAR =  0
+  SIGMA  =  0.05
+  EDIFF  =  1E-08
+ 
+Molecular Dynamics
+  IBRION =  0            (Activate MD)
+  NSW    =  100          (Max electronic SCF steps)
+  EDIFFG = -1E-02        (Ionic convergence; eV/AA)
+  POTIM  =  1            (Timestep in fs)
+  SMASS  =  0            (MD Algorithm: -3-microcanonical ensemble; 0-canonical ensemble)
+  ! TEBEG  =     100     (Start temperature K)
+  ! TEEND  =     100     (Start temperature K)
+  ! MDALGO =  1          (Andersen Thermostat)
+  ! ISYM   =  0          (Symmetry: 0=none; 2=GGA; 3=hybrids)
+ 

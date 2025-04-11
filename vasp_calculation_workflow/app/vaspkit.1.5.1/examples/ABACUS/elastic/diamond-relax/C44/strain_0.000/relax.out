@@ -1,0 +1,108 @@
+                                                                                     
+                              ABACUS v3.3.0
+
+               Atomic-orbital Based Ab-initio Computation at UStc                    
+
+                     Website: http://abacus.ustc.edu.cn/                             
+               Documentation: https://abacus.deepmodeling.com/                       
+                  Repository: https://github.com/abacusmodeling/abacus-develop       
+                              https://github.com/deepmodeling/abacus-develop         
+                      Commit: unknown
+
+ Sun Aug 27 15:02:14 2023
+ MAKE THE DIR         : OUT.ABACUS/
+ UNIFORM GRID DIM     : 45 * 45 * 45
+ UNIFORM GRID DIM(BIG): 15 * 15 * 15
+ DONE(0.0414346  SEC) : SETUP UNITCELL
+ DONE(0.188411   SEC) : SYMMETRY
+ DONE(0.397223   SEC) : INIT K-POINTS
+ ---------------------------------------------------------
+ Ion relaxation calculations
+ ---------------------------------------------------------
+ SPIN    KPOINTS         PROCESSORS  NBASE       
+ 1       56              2           104         
+ ---------------------------------------------------------
+ Use Systematically Improvable Atomic bases
+ ---------------------------------------------------------
+ ELEMENT ORBITALS        NBASE       NATOM       XC          
+ C       2s2p1d-7au      13          8           
+ ---------------------------------------------------------
+ Initial plane wave basis and FFT box
+ ---------------------------------------------------------
+ -------------------------------------------
+ STEP OF RELAXATION : 1
+ -------------------------------------------
+ START CHARGE      : atomic
+ DONE(1.35727    SEC) : INIT SCF
+ ITER   ETOT(eV)       EDIFF(eV)      DRHO       TIME(s)    
+ GE1    -1.239481e+03  0.000000e+00   1.505e-01  2.482e+00  
+ GE2    -1.239806e+03  -3.250160e-01  2.770e-02  2.153e+00  
+ GE3    -1.239813e+03  -6.540991e-03  4.228e-03  2.139e+00  
+ GE4    -1.239813e+03  -1.362785e-05  7.838e-05  2.179e+00  
+ GE5    -1.239813e+03  -2.045044e-07  2.193e-05  2.126e+00  
+ GE6    -1.239813e+03  1.246886e-08   1.044e-05  2.135e+00  
+ GE7    -1.239813e+03  1.051198e-08   7.203e-07  2.136e+00  
+ GE8    -1.239813e+03  -1.883215e-10  5.336e-07  2.159e+00  
+ GE9    -1.239813e+03  -5.504635e-10  8.592e-08  2.146e+00  
+ GE10   -1.239813e+03  -1.036348e-10  1.875e-09  2.146e+00  
+ ><><><><><><><><><><><><><><><><><><><><><><
+ TOTAL-STRESS (KBAR):
+ ><><><><><><><><><><><><><><><><><><><><><><
+ 1.860e+01      8.378e-16      -2.513e-15     
+ 8.378e-16      1.860e+01      5.865e-15      
+ -2.513e-15     5.865e-15      1.860e+01      
+ TOTAL-PRESSURE: 1.860e+01 KBAR
+ ETOT DIFF (eV)       : 0.000e+00
+ LARGEST GRAD (eV/A)  : 7.345e-04
+
+  |CLASS_NAME---------|NAME---------------|TIME(Sec)-----|CALLS----|AVG------|PER%-------
+                       total               26.676         9         3         1e+02     %
+   Driver              driver_line         26.658         1         27        1e+02     %
+   ORB_control         set_orb_tables      0.44264        1         0.44      1.7       %
+   ORB_gen_tables      gen_tables          0.44264        1         0.44      1.7       %
+   ORB_table_beta      init_Table_Beta     0.12088        1         0.12      0.45      %
+   ORB_table_beta      VNL_PhiBeta_R       0.12           26        0.0046    0.45      %
+   Ions                opt_ions            25.674         1         26        96        %
+   ESolver_KS_LCAO     Run                 22.25          1         22        83        %
+   ESolver_KS_LCAO     beforescf           0.36673        1         0.37      1.4       %
+   Potential           update_from_charge  0.19805        11        0.018     0.74      %
+   Potential           cal_v_eff           0.19682        11        0.018     0.74      %
+   PW_Basis            real2recip          0.11543        103       0.0011    0.43      %
+   PotXC               cal_v_eff           0.16308        11        0.015     0.61      %
+   XC_Functional       v_xc                0.16249        11        0.015     0.61      %
+   Symmetry            rhog_symmetry       2.6218         11        0.24      9.8       %
+   HSolverLCAO         solve               19.179         10        1.9       72        %
+   HamiltLCAO          updateHk            4.941          560       0.0088    19        %
+   OperatorLCAO        init                3.9922         1120      0.0036    15        %
+   Veff                contributeHk        3.9879         560       0.0071    15        %
+   Gint_interface      cal_gint            7.0454         21        0.34      26        %
+   Gint_interface      cal_gint_vlocal     3.1128         10        0.31      12        %
+   Gint_Tools          cal_psir_ylm        0.53316        2580      0.00021   2         %
+   Gint_k              folding_vl_k        0.87424        560       0.0016    3.3       %
+   Gint_k              Distri              0.71342        560       0.0013    2.7       %
+   Nonlocal<LCAO>      contributeHR        0.24094        1         0.24      0.9       %
+   LCAO_gen_fixedH     b_NL_mu_new         0.79928        2         0.4       3         %
+   OperatorLCAO        folding_fixed       0.66981        560       0.0012    2.5       %
+   LCAO_nnr            folding_fixedH      0.66026        560       0.0012    2.5       %
+   HSolverLCAO         hamiltSolvePsiK     9.9929         560       0.018     37        %
+   DiagoElpa           elpa_solve          9.7577         560       0.017     37        %
+   ElecStateLCAO       psiToRho            4.2441         10        0.42      16        %
+   elecstate           cal_dm              0.48414        11        0.044     1.8       %
+   psiMulPsiMpi        pdgemm              0.44736        616       0.00073   1.7       %
+   LCAO_Charge         cal_dk_k            0.8969         10        0.09      3.4       %
+   Gint_interface      cal_gint_rho        2.7471         10        0.27      10        %
+   Force_Stress_LCAO   getForceStress      3.4227         1         3.4       13        %
+   Force_LCAO_k        ftable_k            3.4004         1         3.4       13        %
+   Force_LCAO_k        allocate_k          0.84663        1         0.85      3.2       %
+   Force_LCAO_k        cal_foverlap_k      0.14599        1         0.15      0.55      %
+   Force_LCAO_k        cal_edm_2d          0.14403        1         0.14      0.54      %
+   Force_LCAO_k        cal_fvl_dphi_k      1.1855         1         1.2       4.4       %
+   Gint_interface      cal_gint_force      1.1855         1         1.2       4.4       %
+   Gint_Tools          cal_dpsir_ylm       0.60286        129       0.0047    2.3       %
+   Force_LCAO_k        cal_fvnl_dbeta_k_new1.2002         1         1.2       4.5       %
+ ----------------------------------------------------------------------------------------
+
+ START  Time  : Sun Aug 27 15:02:14 2023
+ FINISH Time  : Sun Aug 27 15:02:41 2023
+ TOTAL  Time  : 27
+ SEE INFORMATION IN : OUT.ABACUS/

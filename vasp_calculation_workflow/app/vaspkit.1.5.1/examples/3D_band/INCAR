@@ -1,0 +1,9 @@
+   ISTART =      0
+   ISPIN=1
+   ISMEAR =   0
+   SIGMA  =  0.05
+   NELM   =    30
+   EDIFF  =  1E-05   stopping-criterion for ELM
+   ENCUT=400
+   LWAVE  =      F    write WAVECAR
+   LCHARG =      F    write CHGCAR

@@ -1,0 +1,18 @@
+Global Parameters
+ISTART =  1            (Read existing wavefunction; if there)
+LREAL  = .FALSE.       (Projection operators: automatic)
+PREC   =  Normal       (Precision level)
+LWAVE  = .TRUE.        (Write WAVECAR or not)
+LCHARG = .TRUE.        (Write CHGCAR or not)
+ADDGRID= .TRUE.        (Increase grid; helps GGA convergence)
+ 
+Electronic Relaxation
+ISMEAR =  0            (Gaussian smearing; metals:1)
+SIGMA  =  0.05         (Smearing value in eV; metals:0.2)
+NELM   =  60           (Max electronic SCF steps)
+NELMIN =  6            (Min electronic SCF steps)
+EDIFF  =  1E-08        (SCF energy convergence; in eV)
+LOPTICS = .TRUE. 
+CSHIFT = 0.1 
+NEDOS = 2000
+NBAND = 64

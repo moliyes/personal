@@ -1,0 +1,30 @@
+##### initial parameters I/O #####
+SYSTEM = H2O 
+ISTART = 1 # whether or not to read the WAVECAR file. 
+ICHARG = 1 # how VASP constructs the initial charge density.
+LWAVE = .FALSE. # whether the wavefunctions are written to the WAVECAR file
+LCHARG = .FALSE. # LCHARG determines whether the charge densities (files CHGCAR and CHG) are written.
+LVTOT = .FALSE. # whether the total local potential is written to the LOCPOT file
+LVHAR = .FALSE. # whether the electrostatic potential is written to the LOCPOT file
+LELF = .FALSE. # whether to create an ELFCAR file or not.
+
+#### Electronic Relaxation ####
+ENCUT = 400 # cutoff energy for the planewave basis set in eV
+ISMEAR = 0 # how the partial occupancies are set for each orbital.
+SIGMA = 0.05 # the width of the smearing in eV.
+EDIFF = 1E-6 # global break condition for the electronic SC-loop
+NELMIN = 5 # specifies the minimum number of electronic SCF steps.
+NELM = 300 # maximum number of electronic SC (selfconsistency) steps
+GGA = PE # type of generalized-gradient-approximation one wishes to use.
+LREAL = Auto # whether the projection operators are evaluated in real-space or in reciprocal space.
+ISYM = 0 # determines the way VASP treats symmetry.
+
+#### MD ####
+NSW = 12000   #maxcycle of opt
+POTIM = 1       # timestep of ionic movement (0.2 when not converge, maybe)
+SMASS = 0       # >= 0, NVT ensemble, value determines frequency of coupling to heat  bath
+MDALGO = 2
+TEBEG = 400
+TEEND = 400
+NBLOCK = 1
+NPAR= 8

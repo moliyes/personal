@@ -1,0 +1,7 @@
+System = Si 
+PREC = Normal ; 
+ENCUT = 250.0 
+ISMEAR = 0 ; 
+SIGMA = 0.01 
+KPAR = 9
+EDIFF = 1.E-8

@@ -1,0 +1,8 @@
+Step 1: Run vaspkit with task 261 to get KPOINTS file;  
+
+Step 2: Run vasp code;  
+
+Step 3: Re-run vaspkit with task 262 to get FERMI_SURFACE.bxsf file.
+
+Step 4: Open FERMI_SURFACE.bxsf file with XCrySden package.  
+

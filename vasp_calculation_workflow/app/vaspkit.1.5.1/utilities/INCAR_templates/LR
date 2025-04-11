@@ -1,0 +1,9 @@
+Lattice Relaxation
+  NSW    =  300          (number of ionic steps. Make it odd.)
+  ISMEAR =  0            (gaussian smearing method )
+  SIGMA  =  0.05         (please check the width of the smearing)
+  IBRION =  2            (Algorithm: 0-MD; 1-Quasi-New; 2-CG)
+  ISIF   =  3            (optimize atomic coordinates and lattice parameters)
+  EDIFFG = -1.5E-02      (Ionic convergence; eV/AA)
+  PREC   =  High         (Precision level)
+ 

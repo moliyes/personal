@@ -1,0 +1,23 @@
+ "GaInO3"                     : name of system               
+ 1                            : total atoms          
+ 3                            : eos type                
+ 100.0 150.0 100              : minimum volume, maximum volume, number of intervals 
+ 8                            : number of data               
+109.42  -72.3015              : volume (A^3), total-energy (eV) 
+112.91  -72.6799              : volume (A^3), total-energy (eV) 
+116.48  -72.936               : volume (A^3), total-energy (eV) 
+120.11  -73.0660              : volume (A^3), total-energy (eV) 
+123.83  -73.0819              : volume (A^3), total-energy (eV) 
+127.62  -72.9590              : volume (A^3), total-energy (eV) 
+131.49  -72.7758              : volume (A^3), total-energy (eV) 
+135.43  -72.5512              : volume (A^3), total-energy (eV) 
+139.45  -72.2461              : volume (A^3), total-energy (eV) 
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+ATOMIC_SPECIES
+C 12.011 ../../C_ONCV_PBE-1.0.upf upf201
+
+NUMERICAL_ORBITAL
+../../C_gga_7au_100Ry_2s2p1d.orb
+
+LATTICE_CONSTANT
+1.889726
+
+LATTICE_VECTORS
+3.58032803 0 0 #latvec1
+0 3.58032803 0 #latvec2
+0 0 3.56251545 #latvec3
+
+ATOMIC_POSITIONS
+Direct
+
+C #label
+0 #magnetism
+8 #number of atoms
+0.25  0.25  0.25  m  1  1  1
+0  0  0  m  1  1  1
+0.25  0.75  0.75  m  1  1  1
+0  0.5  0.5  m  1  1  1
+0.75  0.25  0.75  m  1  1  1
+0.5  0  0.5  m  1  1  1
+0.75  0.75  0.25  m  1  1  1
+0.5  0.5  0  m  1  1  1

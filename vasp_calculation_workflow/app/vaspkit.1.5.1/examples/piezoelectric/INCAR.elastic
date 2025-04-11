@@ -1,0 +1,16 @@
+Global Parameters
+ISTART = 1
+ISPIN = 1
+LREAL = .FALSE.
+LWAVE = .TRUE.
+LCHARG = .TRUE.
+ADDGRID= .TRUE.
+LASPH = .TRUE.
+PREC = Accurate
+ 
+Elastic constants Calculation
+IBRION = 6
+NFREE = 2
+ISIF = 3
+NSW = 1
+ 

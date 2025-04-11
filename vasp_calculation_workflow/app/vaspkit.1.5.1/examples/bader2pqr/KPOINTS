@@ -1,0 +1,6 @@
+Name # first line
+0 # 0, generates k-meshes automatically
+G # Gamma centered Monkhorst-Pack grids
+7 7 1 # subdivisions N_1, N_2 and N_3 along recipr. l. vectors
+0.0 0.0 0.0 # optional shift of the mesh (s_1, s_2, s_3)
+

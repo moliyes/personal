@@ -1,0 +1,12 @@
+Budged Elastic Band (NEB)
+  IMAGES =  5            (no. of images excluding two endpoints, set a NEB run no. of nodes, must be dividable by no. of images. each group of nodes works on one image.   PLEASE CHANGE IT TO YOUR CHOICE NEBMAKE.PL)
+  NSW    =  500          (number of ionic steps.)
+  ISMEAR =  0            (gaussian smearing method )
+  SIGMA  =  0.05         (please check the width of the smearing)
+  IBRION =  3            (do MD with a zero time step)
+  POTIM  =  0            (Zero time step so that VASP does not move the ions)
+  SPRING =  -5.0         (spring force (eV/A2) between images)
+  LCLIMB =  .TRUE.       (turn on the climbing image algorithm)
+  ICHAIN =  0            (Indicates which method to run. NEB (ICHAIN=0) is the default)
+  IOPT   =  1            (LBFGS = Limited-memory Broyden-Fletcher-Goldfarb-Shanno)
+ 

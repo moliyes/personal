@@ -1,0 +1,14 @@
+  Global Parameters
+  ISTART = 1
+  LREAL = F
+  PREC = N
+  LWAVE = .TRUE.
+  LCHARG = F
+  
+Electronic Relaxation
+  ISMEAR = 0
+  SIGMA = 0.05
+  NELM = 60
+  NELMIN = 6
+  EDIFF = 1E-08
+  

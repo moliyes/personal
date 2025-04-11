@@ -1,0 +1,31 @@
+#General
+PREC = ACCURATE
+ISTART= 0
+ICHARG= 11
+ENCUT = 500
+EDIFF = 1E-10
+LREAL = .F.
+NPAR = 4
+IBRION = -1
+ISIF = 2
+ISMEAR = 1
+SIGMA = 0.01
+LCHARG = F
+LWAVE = F
+POTIM = 0.5
+NEDOS = 2001
+NBANDS = 72
+
+#Magnetic properties
+#Warning! DO NOT add the SAXIS parameter 
+ISPIN=2
+MAGMOM = 0 0 5 0 0 5 0 0 5 0 0 5
+NELMIN = 6
+LORBIT = 11
+ISYM = -1
+LSORBIT       = .True.
+LORBMOM=.True.
+LMAXMIX = 4  ! for d-elements increase LMAXMIX to 4, f-elements: LMAXMIX = 6
+VOSKOWN       = 1
+GGA_COMPAT=.FALSE.
+

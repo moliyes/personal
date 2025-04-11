@@ -1,0 +1,12 @@
+Step 1: Prepare POSCAR file (strongly suggest to use the unrelaxed structure downloaded from the crystallography database);  
+
+Step 2: Run vaspkit with task 302 to get kpath for bulk structure;; 
+
+Step 3: Copy PRIMCELL.vasp to POSCAR; 
+Warnning: Note that the vacuum slab is re-oriented to x or y direction for some orthorhombic crystal systems. If so, please do not copy PRIMCELL.vasp to POSCAR;
+
+Step 4: Perform structural relaxation and static calculations;
+
+Step 5: Copy KPATH.in to KPOINTS and perfrom band-structure calculation.
+
+* If you want to run this module under Command-Line Mode, just type the command "vaspkit -task 302 -symprec 1E-5" on the terminal, where the parameter symprec controls the tolerance for symmetry finding.

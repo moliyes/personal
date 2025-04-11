@@ -1,0 +1,6 @@
+2                              ! 1 for preprocess, 2 for postprocess
+4                              ! Typical value 4-8, number of points to fit second-order polynomial E=(h*k)^2/2m
+0.015                          ! Typical value 0.005-0.01 (in unit of 1/A), kpoint spacing
+0.0  0.0  0.0                  ! Postion of VBM or CMB (in fractional coordinates)
+0 360 36                       ! 0<= azimuth angle phi in spherical coordinate system <=360 with a increment of 10 degrees, 36 points in total
+0 180 18                       ! 0<= polar angle theta in spherical coordinate system <=180 with a increment of 6 degrees, 30 points in total

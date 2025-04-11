@@ -1,0 +1,4 @@
+12                              ! which KPOINT to plot
+5                               ! which BAND to plot
+100 100 100                     ! NGX, NGY, NGZ
+

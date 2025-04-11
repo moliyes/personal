@@ -1,0 +1,59 @@
+##### initial parameters I/O #####
+SYSTEM = Au
+# KPAR = 4
+NCORE = 5 # number of compute cores that work on an individual orbital
+ISTART = 1 # whether or not to read the WAVECAR file. 
+ICHARG = 1 # how VASP constructs the initial charge density.
+LWAVE = .TRUE. # whether the wavefunctions are written to the WAVECAR file
+LCHARG = .TRUE. # LCHARG determines whether the charge densities (files CHGCAR and CHG) are written.
+LVTOT = .FALSE. # whether the total local potential is written to the LOCPOT file
+LVHAR = .FALSE. # whether the electrostatic potential is written to the LOCPOT file
+LELF = .FALSE. # whether to create an ELFCAR file or not.
+# LORBIT = 11 # determines whether the PROCAR or PROOUT files are written.
+LAECHG=.TRUE.
+
+#### Electronic Relaxation ####
+ENCUT = 400 # cutoff energy for the planewave basis set in eV
+ISMEAR = 1 # how the partial occupancies are set for each orbital.
+SIGMA = 0.2 # the width of the smearing in eV.
+EDIFF = 1E-6 # global break condition for the electronic SC-loop
+NELMIN = 5 # specifies the minimum number of electronic SCF steps.
+NELM = 300 # maximum number of electronic SC (selfconsistency) steps
+GGA = PE # type of generalized-gradient-approximation one wishes to use.
+LREAL = Auto # whether the projection operators are evaluated in real-space or in reciprocal space.
+LDIPOL = .TRUE.
+IDIPOL = 3 # add dipole correction
+ISYM = 0 # determines the way VASP treats symmetry.
+# ALGO = Fast # electronic minimisation algorithm 
+# PREC = Normal # specifies the "precision"-mode
+# ADDGRID = .TRUE. # whether an additional support grid is used for the evaluation of the augmentation charges
+# AMIX = 0.2
+# BMIX = 0.0001
+# AMIX_MAG = 0.8
+# BMIX_MAG = 0.0001
+# MAXMIX = 40
+
+#### Magnetic parameters ####
+# ISPIN = 1
+# MAGMOM = 33*0.0 4*2.0 4*-2.0 4*2.0 4*-2.0
+# NUPDOWN = 0
+# VOSKOWN = 1
+
+#### Geometry opt parameters ####
+EDIFFG = -0.01 # EDIFFG defines the break condition for the ionic relaxation loop.
+IBRION = 2 # IBRION determines how the ions are updated and moved.
+POTIM = 0.2 # POTIM sets the time step (MD) or step width scaling (ionic relaxations).
+NSW = 0 # maximum number of ionic steps.
+ISIF = 2 # determines whether the stress tensor is calculated and which principal degrees-of-freedom are allowed to change
+# NFREE = 2
+
+#### DFT +U ####
+# LDAU = .TRUE.
+# LDAUTYPE = 2
+# LDAUL =   2  -1   -1   -1  -1
+# LDAUU =  4.6 0.0  0.0 0.0 0.0
+# LDAUJ =  0.4 0.0  0.0 0.0 0.0
+# LDAUALPHA = 0.0 0.5 
+# LDAUPRINT = 2
+# LMAXMIX = 4
+

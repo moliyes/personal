@@ -1,0 +1,24 @@
+ +---------------------------------------------------------------+
+ |                    VASPKIT Version: 0.72p1                    |
+ |            Running VASPKIT Under Command-Line Mode            |
+ +---------------------------------------------------------------+
+ +-------------------------- Warm Tips --------------------------+
+      Test ONLY for Non-Charged & Non-Magnetic Semiconductor!            
+ +---------------------------------------------------------------+
+ -->> (1) Reading VPKIT.in File...
+ -->> (2) Reading Structural Parameters from POSCAR File...
+ -->> (3) Reading Input Parameters From INCAR File...
+ -->> (4) Reading Fermi-Level From DOSCAR File...
+ ooooooooo The Fermi Energy will be set to zero eV ooooooooooooooo
+ -->> (5) Reading Energy-Levels From EIGENVAL File...
+ +-------------------------- Summary ----------------------------+
+ Band Index:                LUMO =   10               HOMO =   9
+ Effective-Mass (in m0)     Electron (Prec.)          Hole (Prec.)
+ KPATH No.1: K->G            0.473 (0.3E-07)      -0.569 (0.1E-07)
+ KPATH No.2: K->M            0.524 (0.1E-06)      -0.691 (0.1E-06)
+ +---------------------------------------------------------------+
+ +---------------------------------------------------------------+
+ | Citation of VASPKIT is not Mandatory BUT would be Appreciated.|
+ | Please Cite: V. Wang, N. Xu, VASPKIT: A Pre- and Post-Proces- |
+ | sing Program for the VASP Code. http://vaspkit.sourceforge.net|
+ +---------------------------------------------------------------+

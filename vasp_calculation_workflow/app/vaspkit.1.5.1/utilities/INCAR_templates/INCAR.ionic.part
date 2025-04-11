@@ -1,0 +1,11 @@
+Electronic Relaxation
+  ISMEAR =  0
+  SIGMA  =  0.05
+  EDIFF  =  1E-08
+ 
+Ionic contributions to the static dielectric
+  LEPSILON = .TRUE.
+  LPEAD    = .TRUE.
+  LRPA     = .TRUE.
+  IBRION   =  8
+ 

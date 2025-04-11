@@ -1,0 +1,12 @@
+SYSTEM = ethanol
+ISMEAR = 0 
+SIGMA =0.01
+#ISPIN = 2  
+#MAGMOM = 1 1
+POTIM = 0.02
+IBRION = 5 #freq
+NSW = 100
+NFREE = 2
+#ENCUT = 400
+EDIFF = 1E-6
+#NCORE = 4

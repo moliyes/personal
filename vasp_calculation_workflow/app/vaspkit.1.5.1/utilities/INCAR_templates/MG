@@ -1,0 +1,12 @@
+Collinear Magnetic Calculation
+  ISPIN      =  2        (Spin polarised DFT)
+  ! MAGMOM   =           (Set this parameters manually)
+  LASPH      = .TRUE.    (Non-spherical elements; d/f convergence)
+  GGA_COMPAT = .FALSE.   (Apply spherical cutoff on gradient field)
+  VOSKOWN    =  1        (Enhances the magnetic moments and the magnetic energies)
+  LMAXMIX    =  4        (For d elements increase LMAXMIX to 4, f: LMAXMIX = 6)
+  ! AMIX       =  0.2    (Mixing parameter to control SCF convergence)
+  # BMIX       =  0.0001 (Mixing parameter to control SCF convergence)
+  # AMIX_MAG   =  0.4    (Mixing parameter to control SCF convergence)
+  # BMIX_MAG   =  0.0001 (Mixing parameter to control SCF convergence)
+ 

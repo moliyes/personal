@@ -1,0 +1,45 @@
+ In SCAN_BEGIN, can't find: LATTICE_PARAMETERS block.
+ In SCAN_BEGIN, can't find: <PP_MESH block.
+ AUTO_SET NBANDS to 0
+ AUTO_SET NBANDS to 26
+      Processor           Atom
+              1             62
+              2             62
+                            startmag_type = 2
+                       charge from rho_at = 3.99303
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32
+                 charge before normalized = 32
+                  charge after normalized = 32
+                 charge before normalized = 32.00010965799
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.000151168433
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.0001575450938
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.000157353659
+                  charge after normalized = 32
+                 charge before normalized = 32.0001573228459
+                  charge after normalized = 32.0000000000001
+                 charge before normalized = 32.0001573268819
+                  charge after normalized = 32
+                 charge before normalized = 32.0001573315073
+                  charge after normalized = 31.9999999999999
+                 charge before normalized = 32.000157331437
+                  charge after normalized = 32
+                 charge before normalized = 32.0001573312682
+                  charge after normalized = 32
+                 charge before normalized = 32.000157331234
+                  charge after normalized = 32.0000000000001
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 32
+           total electron number from rho = 32
+                                should be = 32

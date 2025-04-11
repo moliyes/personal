@@ -1,0 +1,8 @@
+ +-------------------------- Summary ----------------------------+
+ BAND index:                LUMO =   11               HOMO =  10
+ Effective-Mass (in m0)     Electron (Prec.)          Hole (Prec.)
+ KPATH No.1: G->X            1.230 (0.8E-10)      -7.211 (0.5E-06)
+ KPATH No.2: G->Y            0.187 (0.1E-04)      -0.171 (0.1E-04)
+ +---------------------------------------------------------------+
+
+These results are well agreement with the calculated values in Phys. Rev. B 92, 165406 (2015)

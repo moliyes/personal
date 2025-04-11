@@ -1,0 +1,6 @@
+1                              ! 1 for preprocess, 2 for postprocess
+5                              ! Typical value 4-8, number of points to fit second-order polynomial E=(h*k)^2/2m
+0.015                          ! Typical value 0.005-0.01 (in 1/A), kpoint spacing
+0.0 0.0  0.0                   ! Both VBM and CMB located at Gamma point for TiS3
+0 360 36                       ! 0<= azimuth angle phi in spherical coordinate system <=360 with a increment of 10 degrees, 36 points in total 
+90 90 1                        ! 0<= polar angle theta in spherical coordinate system <=180, 90 degrees mean in x-y plane

@@ -1,0 +1,16 @@
+general:
+  SYSTEM = clean (100) Ni surface
+  ENMAX = 270
+  ISMEAR =   -5
+  ALGO = Normal 
+    
+spin:
+  ISPIN = 2
+  MAGMOM = 5*1   
+    
+  LORBIT = 10  # lm and site decomposed DOS inside PAW spheres
+  
+  
+# Using the tetrahedron method (with Blöchl corrections).
+# LM and site decomposed DOS.
+# N.B.: We want to use the optimized structure of Ni 100 surface relaxation. Normally this would mean copying the CONTCAR file of Ni 100 surface relaxation to the POSCAR file in the directory where you want to run Ni 100 surface DOS.  

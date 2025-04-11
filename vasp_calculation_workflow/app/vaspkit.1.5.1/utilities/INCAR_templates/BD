@@ -1,0 +1,4 @@
+Bader Charge Analysis
+  LAECHG     = .TRUE.    (Write core charge into CHGCAR file)
+  LCHARG     = .TRUE.    (Write CHGCAR file)
+ 

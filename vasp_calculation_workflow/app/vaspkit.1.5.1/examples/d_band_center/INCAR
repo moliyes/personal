@@ -1,0 +1,13 @@
+  ISTART = 0
+  ISPIN = 2 
+  ICHARG = 2
+     
+general:
+  SYSTEM = CO adsorption on Ni(111)
+  ENMAX  = 400
+  ISMEAR =    2  ; SIGMA = 0.2
+  ALGO= Fast
+  EDIFF = 1E-6
+  LORBIT = 10
+  NEDOS=2001  
+

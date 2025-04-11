@@ -1,0 +1,25 @@
+Global Parameters
+ISTART = 1
+LREAL = .FALSE.
+PREC =   A
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+ADDGRID= .TRUE.
+ 
+Static Calculation
+ISMEAR = 0
+SIGMA = 0.05
+LORBIT = 11
+NEDOS = 2001
+NELM = 60
+EDIFF = 1E-08
+ISYM = -1
+
+ICHARG = 11
+LMAXMIX = 4 ! for d elements increase LMAXMIX to 4, f: LMAXMIX = 6
+SAXIS = 0 0 1
+NBANDS = 72
+MAGMOM = 15*0.0 
+GGA_COMPAT=.FALSE. ！ it improves the numerical precision of GGA for non collinear calculations
+LORBMOM = .TRUE. 
+LSORBIT = .TRUE.

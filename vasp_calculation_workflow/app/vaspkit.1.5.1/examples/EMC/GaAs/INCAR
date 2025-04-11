@@ -1,0 +1,23 @@
+Global Parameters
+  ISTART =  1            (Read existing wavefunction; if there)
+  # ICHARG =  11         (Non-self-consistent: GGA/LDA band structures)
+  LREAL  = Auto          (Projection operators: automatic)
+  ENCUT  =  400          (Cut-off energy for plane wave basis set, in eV) 
+  PREC   =  Accurate     (Precision level)  
+  LWAVE  = .TRUE.        (Write WAVECAR or not)
+  LCHARG = .TRUE.        (Write CHGCAR or not) 
+  ADDGRID= .TRUE.        (Increase grid; helps GGA convergence) 
+  # LVTOT  = .TRUE.      (Write total electrostatic potential into LOCPOT or not)
+  # LVHAR  = .TRUE.      (Write ionic + Hartree electrostatic potential into LOCPOT or not)
+  # NELECT =             (No. of electrons: charged cells; be careful)
+  # LPLANE = .TRUE.      (Real space distribution; supercells)
+  # NPAR   = 4           (Max is no. nodes; don't set for hybrids)
+ 
+Static Calculation
+  ISMEAR = 0            (tetrahedron method for DOS) 
+  sigma = 0.05
+  LORBIT =  11           (PAW radii for projected DOS)
+  NEDOS  =  2001         (DOSCAR points) 
+  NELM   =  60           (Max electronic SCF steps)
+  EDIFF  =  1E-08        (SCF energy convergence; in eV)
+ 

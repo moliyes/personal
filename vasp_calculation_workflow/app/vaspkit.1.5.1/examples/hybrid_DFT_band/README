@@ -1,0 +1,11 @@
+Step 1: Prepare KPOINTS file with Line-mode for DFT band structure calculation, and rename KPOINTS as KPATH.in;  
+
+Step 2: Run vaspkit with task 251; 
+
+Step 3: Run vasp with setting "LHFCALC = F" in INCAR file; (optional)  
+
+Step 4: Re-run vasp with setting "LHFCALC = T" and "ISTART =1" in INCAR file; 
+
+Step 5: Re-run vaspkit with task 252 (253) to read hybrid-DFT (projected) band structure data.
+
+* Of course you can use the same procedure to calculate band strucutre at DFT or Meta-GGA level

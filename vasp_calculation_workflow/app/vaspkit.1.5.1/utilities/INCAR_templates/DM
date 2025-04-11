@@ -1,0 +1,13 @@
+The dimer method
+  NSW    =  500          (number of ionic steps.)
+  ISMEAR =  0            (gaussian smearing method )
+  SIGMA  =  0.05         (please check the width of the smearing)
+  IBRION =  3            (do MD with a zero time step)
+  POTIM  =  0            (Zero time step so that VASP does not move the ions)
+  ICHAIN =  2            (Use the dimer method required for the latest code)
+  DdR    =  0.005        (The dimer separation (twice the distance between images)
+  DRotMax  =  1          (Maximum number of rotation steps per translation step)
+  DFNMin =  0.01         (Magnitude of the rotational force below which the dimer is not rotated)
+  DFNMax =  1.0          (Magnitude of the rotational force below which dimer rotation stops)
+  IOPT   =  2            (CG = Conjugate Gradient)
+ 

@@ -1,0 +1,73 @@
+ +---------------------------------------------------------------+
+ |     A Pre- and Post-Processing Program for the VASP Code      |
+ |          VASPKIT Version: 0.73.beta2 (20 Dec. 2018)           |
+ |            Running VASPKIT Under Command-Line Mode            |
+ +---------------------------------------------------------------+
+ -->> (1) Reading VPKIT.in File...
+ +-------------------------- Warm Tips --------------------------+
+      See an example in vaspkit/examples/elastic/diamond_3D,   
+   Require the fully-relaxed and standardized Convertional cell.
+ +---------------------------------------------------------------+
+ -->> (2) Reading Structural Parameters from POSCAR File...
+ -->> (3) Calculating the fitting coefficients of energy vs strain.
+ -->> Current directory: Fitting Precision 
+                    C44:  0.817E-09
+                C11_C22:  0.814E-08
+                C11_C12:  0.135E-07
+ +-------------------------- Summary ----------------------------+
+ Based on the Strain versus Energy method.
+ Crystal Class: m-3m
+ Space Group: Fd-3m
+ Crystal System: Cubic system                     
+ Including Point group classes: 23, 2/m-3, 432, -43m, 4/m-32/m
+ There are 3 independent elastic constants
+    C11  C12  C12    0    0    0  
+    C12  C11  C12    0    0    0  
+    C12  C12  C11    0    0    0  
+      0    0    0  C44    0    0  
+      0    0    0    0  C44    0  
+      0    0    0    0    0  C44  
+ 
+ Stiffness Tensor C_ij (in GPa):
+   1050.640    126.640    126.640      0.000      0.000      0.000
+    126.640   1050.640    126.640      0.000      0.000      0.000
+    126.640    126.640   1050.640      0.000      0.000      0.000
+      0.000      0.000      0.000    559.861      0.000      0.000
+      0.000      0.000      0.000      0.000    559.861      0.000
+      0.000      0.000      0.000      0.000      0.000    559.861
+ 
+ Compliance Tensor S_ij (in GPa^{-1}):
+   0.000977  -0.000105  -0.000105   0.000000   0.000000   0.000000
+  -0.000105   0.000977  -0.000105   0.000000   0.000000   0.000000
+  -0.000105  -0.000105   0.000977   0.000000   0.000000   0.000000
+   0.000000   0.000000   0.000000   0.001786   0.000000   0.000000
+   0.000000   0.000000   0.000000   0.000000   0.001786   0.000000
+   0.000000   0.000000   0.000000   0.000000   0.000000   0.001786
+ 
+ Average mechanical properties for polycrystalline:
+ +---------------------------------------------------------------+
+ | Scheme |   Bulk K   |  Young's E  |   Shear G  |  Poisson's v |
+ +---------------------------------------------------------------+
+ |  Voigt | 434.64 GPa | 1116.34 GPa | 520.72 GPa |     0.07     |
+ |  Reuss | 434.64 GPa | 1109.30 GPa | 516.13 GPa |     0.07     |
+ |  Hill  | 434.64 GPa | 1112.82 GPa | 518.42 GPa |     0.07     |
+ +---------------------------------------------------------------+
+ Pugh Ratio:     1.19
+ Cauchy Pressure:  -433.22
+ Universal Elastic Anisotropy:     0.04
+ Chung–Buessem Anisotropy:     0.00
+ Isotropic Poisson’s Ratio:     0.07
+ 
+ Voigt averaging scheme gives the upper bound for polycrystalline.
+ Reuss averaging scheme gives the lower bound for polycrystalline.
+ Hill averaging scheme is the average of Reuss's and Voigt's data.
+ References:
+ [1] Voigt W, Lehrbuch der Kristallphysik (1928)
+ [2] Reuss A, Z. Angew. Math. Mech. 9 49–58 (1929)
+ [3] Hill R, Proc. Phys. Soc. A 65 349–54 (1952)
+ +---------------------------------------------------------------+
+ +---------------------------------------------------------------+
+ | Citation of VASPKIT is not Mandatory BUT would be Appreciated.|
+ | Please Cite: V. Wang, N. Xu, VASPKIT: A Pre- and Post-Proces- |
+ | sing Program for the VASP Code. http://vaspkit.sourceforge.net|
+ +---------------------------------------------------------------+

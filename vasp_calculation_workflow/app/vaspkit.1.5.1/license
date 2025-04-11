@@ -1,0 +1,12 @@
+This software is distributed free of charge for academic, scientific, educational, and noncommercial users. Users belonging to commercial enterprises may also use this software at no cost until a license for business users is established. Permission to use this software is hereby granted under the following conditions:
+
+1) The post-processing data produced by VASPKIT may be used in any publications provided that its use is explicitly acknowledged. A suitable reference for VASPKIT is:
+   [1] V. Wang, N. Xu, J.C. LIU, G. Tang, W.T. Geng. VASPKIT: A User-friendly Interface Facilitating High-throughput Computing and Analysis Using VASP Code. Computer Physics Communications 267, 108033, (2021), DOI: 10.1016/j.cpc.2021.108033
+
+2) You should not redistribute any copy of the distributed files unless you have a written permission from us.
+
+3) This software is provided "as is" without any express or implied warranty.
+
+Part of these terms may be changed without any prior announcement. Please report bugs and help us improve VASPKIT.
+E-mail: wangvei@icloud.com
+

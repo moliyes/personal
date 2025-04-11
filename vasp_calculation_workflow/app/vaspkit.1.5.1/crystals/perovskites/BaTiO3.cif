@@ -1,0 +1,86 @@
+data_BaTiO3
+_audit_creation_date              2022-06-09
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'PM-3M'
+_symmetry_Int_Tables_number       221
+_symmetry_cell_setting            cubic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x,-y,z
+  -x,y,-z
+  x,-y,-z
+  z,x,y
+  z,-x,-y
+  -z,-x,y
+  -z,x,-y
+  y,z,x
+  -y,z,-x
+  y,-z,-x
+  -y,-z,x
+  y,x,-z
+  -y,-x,-z
+  y,-x,z
+  -y,x,z
+  x,z,-y
+  -x,z,y
+  -x,-z,-y
+  x,-z,y
+  z,y,-x
+  z,-y,x
+  -z,y,x
+  -z,-y,-x
+  -x,-y,-z
+  x,y,-z
+  x,-y,z
+  -x,y,z
+  -z,-x,-y
+  -z,x,y
+  z,x,-y
+  z,-x,y
+  -y,-z,-x
+  y,-z,x
+  -y,z,x
+  y,z,-x
+  -y,-x,z
+  y,x,z
+  -y,x,-z
+  y,-x,-z
+  -x,-z,y
+  x,-z,-y
+  x,z,y
+  -x,z,-y
+  -z,-y,x
+  -z,y,-x
+  z,-y,-x
+  z,y,x
+_cell_length_a                    4.0100
+_cell_length_b                    4.0100
+_cell_length_c                    4.0100
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+TI1    Ti    0.50000   0.50000   0.50000   0.00000  Uiso   1.00
+BA1    Ba    0.00000   0.00000   0.00000   0.00000  Uiso   1.00
+O1     O     0.00000   0.50000   0.50000   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+TI1    O1      2.005   1_655 S
+TI1    O1      2.005   5_565 S
+TI1    O1      2.005   5     S
+TI1    O1      2.005   9_556 S
+TI1    O1      2.005   9     S
+O1     TI1     2.005   1_455 S

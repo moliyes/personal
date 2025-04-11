@@ -1,0 +1,9 @@
+System = Si 
+PREC = Normal ; 
+ENCUT = 250.0 
+ALGO = EXACT ; 
+NELM = 1 
+ISMEAR = 0 ; 
+SIGMA = 0.05 
+NBANDS = 216 
+LOPTICS = .TRUE. ; 

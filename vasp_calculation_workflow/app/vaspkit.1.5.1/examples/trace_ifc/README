@@ -1,0 +1,33 @@
+###########
+Instroduction:
+###########
+A post-processing code can calculate normalized trace of interatomic force 
+constant tensors versus atomic distances from FORCE_CONSTANTS produced by phonopy.
+
+###########
+References:
+###########
+1. Nat. Commun., 2014, 5, 3525.
+2. J. Materiomics, 2020, 6, 723-728.
+3. Phys. Chem. Chem. Phys., 2020, 22, 18556-18561.
+
+###########
+Useage:
+###########
+1. Chmod +x trace_ifc.x
+2. Phonon calculations with phonopy.
+3. ./trace_ifc.x (It reads FORCE_CONSTANTS and SPOSCAR produced by phonopy.)
+4. Plot trace_ifc.dat with origin.
+
+###########
+Format of trace_ifc.dat
+###########
+       # 1bond, trace_ifc, 2bond, trace_ifc, 3bond, trace_ifc, 4bond, trace_ifc......
+ 1atom
+ 2atom
+ 3atom
+ ......
+
+
+If you have further problems or want to report a bug, please feel free to contanct me:
+Dr. Pengfei Liu, E-mail:  pfliu@ihep.ac.cn

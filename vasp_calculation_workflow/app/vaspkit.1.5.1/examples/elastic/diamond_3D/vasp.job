@@ -1,0 +1,7 @@
+#!/bin/sh
+#PBS -l select=4
+#PBS -q A_004
+#PBS -N elastic.C_cubic
+cd ${PBS_O_WORKDIR}
+export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:${LD_LIBRARY_PATH}
+mpirun -np 144 /usr/local/app/VASP5/current/bin/vasp_gpu

@@ -1,0 +1,8 @@
+1           # 1 for gradient method with constant relaxation time approximation
+3D          # 2D for slab, 3D for bulk 
+-2.0  2.0   # Minimum and maximum values of chemical potential (float type, in units of eV), referenced to the Fermi energy
+1000        # Number of intervals between the minimum and maximum chemical potential values
+300.0       # Temperature (float type, in units of K)
+1.0         # Relaxation time (float type, in units of s), Set 1.0 if you don't know the exact relaxation time
+0.0         # Desired gap value in scissor correction (float type, in units of V), Zero means make no correction, available only non-spin-polarization calculation
+1           # Finite difference method to calculate electron group velocity (integer type)

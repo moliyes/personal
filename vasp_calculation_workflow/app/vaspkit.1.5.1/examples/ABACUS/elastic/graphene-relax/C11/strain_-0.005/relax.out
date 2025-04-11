@@ -1,0 +1,183 @@
+                                                                                     
+                              ABACUS v3.3.0
+
+               Atomic-orbital Based Ab-initio Computation at UStc                    
+
+                     Website: http://abacus.ustc.edu.cn/                             
+               Documentation: https://abacus.deepmodeling.com/                       
+                  Repository: https://github.com/abacusmodeling/abacus-develop       
+                              https://github.com/deepmodeling/abacus-develop         
+                      Commit: unknown
+
+ Sun Aug 27 15:49:43 2023
+ MAKE THE DIR         : OUT.ABACUS/
+ UNIFORM GRID DIM     : 30 * 30 * 150
+ UNIFORM GRID DIM(BIG): 6 * 6 * 50
+ DONE(0.0440941  SEC) : SETUP UNITCELL
+ DONE(0.111839   SEC) : SYMMETRY
+ DONE(0.31256    SEC) : INIT K-POINTS
+ ---------------------------------------------------------
+ Ion relaxation calculations
+ ---------------------------------------------------------
+ SPIN    KPOINTS         PROCESSORS  NBASE       
+ 1       73              2           26          
+ ---------------------------------------------------------
+ Use Systematically Improvable Atomic bases
+ ---------------------------------------------------------
+ ELEMENT ORBITALS        NBASE       NATOM       XC          
+ C       2s2p1d-7au      13          2           
+ ---------------------------------------------------------
+ Initial plane wave basis and FFT box
+ ---------------------------------------------------------
+ -------------------------------------------
+ STEP OF RELAXATION : 1
+ -------------------------------------------
+ START CHARGE      : atomic
+ DONE(1.0225     SEC) : INIT SCF
+ ITER   ETOT(eV)       EDIFF(eV)      DRHO       TIME(s)    
+ GE1    -3.098606e+02  0.000000e+00   1.700e-01  3.791e-01  
+ GE2    -3.101781e+02  -3.174618e-01  2.730e-02  3.426e-01  
+ GE3    -3.101782e+02  -1.572301e-04  6.685e-03  3.398e-01  
+ GE4    -3.101782e+02  -4.583562e-06  8.499e-05  3.520e-01  
+ GE5    -3.101782e+02  -1.055165e-07  5.212e-06  3.375e-01  
+ GE6    -3.101782e+02  1.334009e-08   4.027e-07  3.415e-01  
+ GE7    -3.101782e+02  1.997291e-10   2.762e-08  3.430e-01  
+ GE8    -3.101782e+02  -2.958234e-11  2.645e-09  3.423e-01  
+ ><><><><><><><><><><><><><><><><><><><><><><
+ TOTAL-STRESS (KBAR):
+ ><><><><><><><><><><><><><><><><><><><><><><
+ 6.712e+00      1.570e-08      0.000e+00      
+ 1.570e-08      -6.323e+00     0.000e+00      
+ 0.000e+00      0.000e+00      -3.873e-01     
+ TOTAL-PRESSURE: 4.616e-04 KBAR
+ ETOT DIFF (eV)       : 0.000e+00
+ LARGEST GRAD (eV/A)  : 5.739e-02
+ -------------------------------------------
+ STEP OF RELAXATION : 2
+ -------------------------------------------
+ DONE(4.563e+00  SEC) : INIT SCF
+ ITER   ETOT(eV)       EDIFF(eV)      DRHO       TIME(s)    
+ GE1    -3.101776e+02  0.000000e+00   1.205e-03  3.615e-01  
+ GE2    -3.101777e+02  -2.554964e-05  1.954e-04  3.375e-01  
+ GE3    -3.101777e+02  -7.359254e-08  4.711e-05  3.396e-01  
+ GE4    -3.101777e+02  -1.430393e-09  7.221e-07  3.447e-01  
+ GE5    -3.101777e+02  -1.330238e-10  3.972e-08  3.404e-01  
+ GE6    -3.101777e+02  -2.436192e-11  4.629e-09  3.371e-01  
+ ><><><><><><><><><><><><><><><><><><><><><><
+ TOTAL-STRESS (KBAR):
+ ><><><><><><><><><><><><><><><><><><><><><><
+ 5.184e+00      1.212e-08      0.000e+00      
+ 1.212e-08      -4.473e+00     8.834e-30      
+ 0.000e+00      8.834e-30      -1.153e-01     
+ TOTAL-PRESSURE: 1.985e-01 KBAR
+ ETOT DIFF (eV)       : 5.853e-04
+ LARGEST GRAD (eV/A)  : 2.564e-01
+ -------------------------------------------
+ STEP OF RELAXATION : 3
+ -------------------------------------------
+ DONE(7.345e+00  SEC) : INIT SCF
+ ITER   ETOT(eV)       EDIFF(eV)      DRHO       TIME(s)    
+ GE1    -3.101783e+02  0.000000e+00   9.944e-04  3.669e-01  
+ GE2    -3.101783e+02  -1.695767e-05  1.612e-04  3.395e-01  
+ GE3    -3.101783e+02  -3.011772e-08  3.856e-05  3.398e-01  
+ GE4    -3.101783e+02  -3.721187e-09  5.937e-07  3.382e-01  
+ GE5    -3.101783e+02  3.383600e-10   7.959e-08  3.412e-01  
+ GE6    -3.101783e+02  -6.341834e-11  2.243e-09  3.427e-01  
+ ><><><><><><><><><><><><><><><><><><><><><><
+ TOTAL-STRESS (KBAR):
+ ><><><><><><><><><><><><><><><><><><><><><><
+ 6.460e+00      1.511e-08      0.000e+00      
+ 1.511e-08      -5.991e+00     3.534e-29      
+ 0.000e+00      -8.834e-30     -3.085e-01     
+ TOTAL-PRESSURE: 5.363e-02 KBAR
+ ETOT DIFF (eV)       : -6.085e-04
+ LARGEST GRAD (eV/A)  : 2.305e-03
+ -------------------------------------------
+ STEP OF RELAXATION : 4
+ -------------------------------------------
+ DONE(1.014e+01  SEC) : INIT SCF
+ ITER   ETOT(eV)       EDIFF(eV)      DRHO       TIME(s)    
+ GE1    -3.101783e+02  0.000000e+00   1.624e-06  3.617e-01  
+ GE2    -3.101783e+02  -1.133216e-09  2.645e-07  3.373e-01  
+ GE3    -3.101783e+02  -1.148491e-10  6.297e-08  3.361e-01  
+ GE4    -3.101783e+02  3.093578e-12   9.891e-10  3.395e-01  
+ ><><><><><><><><><><><><><><><><><><><><><><
+ TOTAL-STRESS (KBAR):
+ ><><><><><><><><><><><><><><><><><><><><><><
+ 6.459e+00      1.510e-08      0.000e+00      
+ 1.510e-08      -5.988e+00     -1.104e-29     
+ 0.000e+00      0.000e+00      -3.079e-01     
+ TOTAL-PRESSURE: 5.407e-02 KBAR
+ ETOT DIFF (eV)       : 3.536e-08
+ LARGEST GRAD (eV/A)  : 1.883e-03
+ -------------------------------------------
+ STEP OF RELAXATION : 5
+ -------------------------------------------
+ DONE(1.223e+01  SEC) : INIT SCF
+ ITER   ETOT(eV)       EDIFF(eV)      DRHO       TIME(s)    
+ GE1    -3.101783e+02  0.000000e+00   4.871e-06  3.628e-01  
+ GE2    -3.101783e+02  -4.048333e-09  7.934e-07  3.396e-01  
+ GE3    -3.101783e+02  -1.535188e-10  1.889e-07  3.368e-01  
+ GE4    -3.101783e+02  3.982981e-11   2.965e-09  3.401e-01  
+ ><><><><><><><><><><><><><><><><><><><><><><
+ TOTAL-STRESS (KBAR):
+ ><><><><><><><><><><><><><><><><><><><><><><
+ 6.453e+00      1.509e-08      0.000e+00      
+ 1.509e-08      -5.981e+00     0.000e+00      
+ 0.000e+00      1.325e-29      -3.060e-01     
+ TOTAL-PRESSURE: 5.540e-02 KBAR
+ ETOT DIFF (eV)       : 1.241e-07
+ LARGEST GRAD (eV/A)  : 6.190e-04
+
+  |CLASS_NAME---------|NAME---------------|TIME(Sec)-----|CALLS----|AVG------|PER%-------
+                       total               14.199         17        0.84      1e+02     %
+   Driver              driver_line         14.182         1         14        1e+02     %
+   ORB_control         set_orb_tables      0.50336        1         0.5       3.5       %
+   ORB_gen_tables      gen_tables          0.50336        1         0.5       3.5       %
+   ORB_table_beta      init_Table_Beta     0.12046        1         0.12      0.85      %
+   ORB_table_beta      VNL_PhiBeta_R       0.11956        26        0.0046    0.84      %
+   Ions                opt_ions            13.255         1         13        93        %
+   ESolver_KS_LCAO     Run                 10.953         5         2.2       77        %
+   ESolver_KS_LCAO     beforescf           0.66496        5         0.13      4.7       %
+   PW_Basis            recip2real          0.18201        195       0.00093   1.3       %
+   Potential           init_pot            0.12806        5         0.026     0.9       %
+   Potential           update_from_charge  0.62722        33        0.019     4.4       %
+   Potential           cal_v_eff           0.61839        33        0.019     4.4       %
+   H_Hartree_pw        v_hartree           0.11088        33        0.0034    0.78      %
+   PW_Basis            real2recip          0.25078        284       0.00088   1.8       %
+   PW_Basis            gatherp_scatters    0.1207         284       0.00042   0.85      %
+   PotXC               cal_v_eff           0.503          33        0.015     3.5       %
+   XC_Functional       v_xc                0.50095        33        0.015     3.5       %
+   Symmetry            rho_symmetry        0.24139        33        0.0073    1.7       %
+   HSolverLCAO         solve               8.7912         28        0.31      62        %
+   HamiltLCAO          updateHk            2.1783         2044      0.0011    15        %
+   OperatorLCAO        init                1.7286         4088      0.00042   12        %
+   Veff                contributeHk        1.7134         2044      0.00084   12        %
+   Gint_interface      cal_gint            2.6865         61        0.044     19        %
+   Gint_interface      cal_gint_vlocal     0.96365        28        0.034     6.8       %
+   Gint_Tools          cal_psir_ylm        0.29672        2128      0.00014   2.1       %
+   Gint_k              folding_vl_k        0.74656        2044      0.00037   5.3       %
+   Gint_k              Distri              0.6479         2044      0.00032   4.6       %
+   LCAO_gen_fixedH     b_NL_mu_new         0.25353        10        0.025     1.8       %
+   OperatorLCAO        folding_fixed       0.33197        2044      0.00016   2.3       %
+   LCAO_nnr            folding_fixedH      0.31079        2044      0.00015   2.2       %
+   HSolverLCAO         hamiltSolvePsiK     5.0411         2044      0.0025    36        %
+   DiagoElpa           elpa_solve          4.1372         2044      0.002     29        %
+   ElecStateLCAO       psiToRho            1.5676         28        0.056     11        %
+   elecstate           cal_dm              0.35103        33        0.011     2.5       %
+   psiMulPsiMpi        pdgemm              0.33526        2409      0.00014   2.4       %
+   LCAO_Charge         cal_dk_k            0.34939        28        0.012     2.5       %
+   Gint_interface      cal_gint_rho        0.74194        28        0.026     5.2       %
+   Force_Stress_LCAO   getForceStress      2.2962         5         0.46      16        %
+   Force_LCAO_k        ftable_k            2.0925         5         0.42      15        %
+   Force_LCAO_k        allocate_k          0.3731         5         0.075     2.6       %
+   Force_LCAO_k        cal_fvl_dphi_k      0.9809         5         0.2       6.9       %
+   Gint_interface      cal_gint_force      0.98088        5         0.2       6.9       %
+   Gint_Tools          cal_dpsir_ylm       0.69342        190       0.0036    4.9       %
+   Force_LCAO_k        cal_fvnl_dbeta_k_new0.42722        5         0.085     3         %
+ ----------------------------------------------------------------------------------------
+
+ START  Time  : Sun Aug 27 15:49:43 2023
+ FINISH Time  : Sun Aug 27 15:49:57 2023
+ TOTAL  Time  : 14
+ SEE INFORMATION IN : OUT.ABACUS/

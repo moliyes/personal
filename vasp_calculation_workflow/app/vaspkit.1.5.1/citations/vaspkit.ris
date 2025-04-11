@@ -1,0 +1,22 @@
+TY  - JOUR
+T1  - VASPKIT: A user-friendly interface facilitating high-throughput computing and analysis using VASP code
+AU  - Wang, Vei
+AU  - Xu, Nan
+AU  - Liu, Jin-Cheng
+AU  - Tang, Gang
+AU  - Geng, Wen-Tong
+JO  - Computer Physics Communications
+VL  - 267
+SP  - 108033
+PY  - 2021
+DA  - 2021/10/01/
+SN  - 0010-4655
+DO  - https://doi.org/10.1016/j.cpc.2021.108033
+UR  - https://www.sciencedirect.com/science/article/pii/S0010465521001454
+KW  - High-throughput
+KW  - Elastic mechanics
+KW  - Electronic properties
+KW  - Optical properties
+KW  - Molecular dynamics
+KW  - Wave-function
+ER  - 

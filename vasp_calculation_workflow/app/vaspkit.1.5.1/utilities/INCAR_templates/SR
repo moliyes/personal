@@ -1,0 +1,15 @@
+Electronic Relaxation
+  ISMEAR =  0            (Gaussian smearing; metals:1)
+  SIGMA  =  0.05         (Smearing value in eV; metals:0.2)
+  NELM   =  60           (Max electronic SCF steps)
+  NELMIN =  6            (Min electronic SCF steps)
+  EDIFF  =  1E-08        (SCF energy convergence; in eV)
+  # GGA  =  PS           (PBEsol exchange-correlation)
+ 
+Ionic Relaxation
+  NSW    =  100          (Max electronic SCF steps)
+  IBRION =  2            (Algorithm: 0-MD; 1-Quasi-New; 2-CG)
+  #ISIF   =  2            (Stress/relaxation: 2-Ions, 3-Shape/Ions/V, 4-Shape/Ions)
+  EDIFFG = -2E-02        (Ionic convergence; eV/AA)
+  # ISM =  2            (Symmetry: 0=none; 2=GGA; 3=hybrids)
+ 

@@ -1,0 +1,4 @@
+Electron Localization Function
+  ISTART =  1            (Read existing wavefunction; if there)
+  LELF   = .TRUE.        (Activate ELF)
+ 

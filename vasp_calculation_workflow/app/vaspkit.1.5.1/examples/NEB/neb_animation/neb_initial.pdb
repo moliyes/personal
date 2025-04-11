@@ -1,0 +1,200 @@
+MODEL         1
+REMARK   Converted from the neb_initial file
+REMARK   Converted using VASPKIT
+CRYST1    7.297    7.297   15.000  90.00  90.00 117.11
+ATOM      1   C  MOL     1       3.930   6.452   6.200  1.00  0.00           C
+ATOM      2   C  MOL     1       0.082   1.312   5.959  1.00  0.00           C
+ATOM      3   C  MOL     1      -0.993   2.183   6.261  1.00  0.00           C
+ATOM      4   C  MOL     1      -0.913   3.631   6.430  1.00  0.00           C
+ATOM      5   C  MOL     1      -2.134   4.333   6.479  1.00  0.00           C
+ATOM      6   C  MOL     1      -2.138   5.730   6.300  1.00  0.00           C
+ATOM      7   C  MOL     1       2.336   0.017   6.270  1.00  0.00           C
+ATOM      8   C  MOL     1       1.491   3.835   6.972  1.00  0.00           C
+ATOM      9   C  MOL     1       0.277   4.446   6.584  1.00  0.00           C
+ATOM     10   C  MOL     1       0.272   5.897   6.459  1.00  0.00           C
+ATOM     11   C  MOL     1       4.866   0.103   6.503  1.00  0.00           C
+ATOM     12   C  MOL     1       5.053   1.536   6.551  1.00  0.00           C
+ATOM     13   C  MOL     1       3.983   2.311   7.025  1.00  0.00           C
+ATOM     14   C  MOL     1       3.942   3.694   6.826  1.00  0.00           C
+ATOM     15   C  MOL     1       2.725   4.457   6.842  1.00  0.00           C
+ATOM     16   C  MOL     1       2.714   5.828   6.496  1.00  0.00           C
+ATOM     17   P  MOL     1       1.841   1.723   5.850  1.00  0.00           P
+ATOM     18   O  MOL     1       1.488   2.532   7.375  1.00  0.00           O
+ATOM     19   H  MOL     1       3.293   1.818   7.695  1.00  0.00           H
+TER
+ENDMDL
+MODEL         2
+REMARK   Converted from the neb_initial file
+REMARK   Converted using VASPKIT
+CRYST1    7.297    7.297   15.000  90.00  90.00 117.11
+ATOM      1   C  MOL     1       3.935   6.447   6.202  1.00  0.00           C
+ATOM      2   C  MOL     1       0.083   1.310   5.995  1.00  0.00           C
+ATOM      3   C  MOL     1      -0.995   2.177   6.265  1.00  0.00           C
+ATOM      4   C  MOL     1      -0.908   3.624   6.416  1.00  0.00           C
+ATOM      5   C  MOL     1      -2.126   4.330   6.456  1.00  0.00           C
+ATOM      6   C  MOL     1      -2.129   5.730   6.290  1.00  0.00           C
+ATOM      7   C  MOL     1       2.344   0.015   6.279  1.00  0.00           C
+ATOM      8   C  MOL     1       1.504   3.803   6.896  1.00  0.00           C
+ATOM      9   C  MOL     1       0.286   4.428   6.555  1.00  0.00           C
+ATOM     10   C  MOL     1       0.278   5.886   6.454  1.00  0.00           C
+ATOM     11   C  MOL     1       4.870   0.093   6.498  1.00  0.00           C
+ATOM     12   C  MOL     1       5.051   1.527   6.548  1.00  0.00           C
+ATOM     13   C  MOL     1       3.986   2.311   7.013  1.00  0.00           C
+ATOM     14   C  MOL     1       3.950   3.688   6.790  1.00  0.00           C
+ATOM     15   C  MOL     1       2.729   4.441   6.789  1.00  0.00           C
+ATOM     16   C  MOL     1       2.717   5.818   6.475  1.00  0.00           C
+ATOM     17   P  MOL     1       1.813   1.728   5.997  1.00  0.00           P
+ATOM     18   O  MOL     1       1.495   2.412   7.519  1.00  0.00           O
+ATOM     19   H  MOL     1       3.302   1.841   7.706  1.00  0.00           H
+TER
+ENDMDL
+MODEL         3
+REMARK   Converted from the neb_initial file
+REMARK   Converted using VASPKIT
+CRYST1    7.297    7.297   15.000  90.00  90.00 117.11
+ATOM      1   C  MOL     1       3.940   6.443   6.203  1.00  0.00           C
+ATOM      2   C  MOL     1       0.084   1.308   6.030  1.00  0.00           C
+ATOM      3   C  MOL     1      -0.998   2.170   6.269  1.00  0.00           C
+ATOM      4   C  MOL     1      -0.904   3.617   6.401  1.00  0.00           C
+ATOM      5   C  MOL     1      -2.118   4.328   6.432  1.00  0.00           C
+ATOM      6   C  MOL     1      -2.121   5.729   6.279  1.00  0.00           C
+ATOM      7   C  MOL     1       2.353   0.013   6.288  1.00  0.00           C
+ATOM      8   C  MOL     1       1.517   3.770   6.820  1.00  0.00           C
+ATOM      9   C  MOL     1       0.296   4.410   6.525  1.00  0.00           C
+ATOM     10   C  MOL     1       0.284   5.875   6.449  1.00  0.00           C
+ATOM     11   C  MOL     1       4.874   0.083   6.494  1.00  0.00           C
+ATOM     12   C  MOL     1       5.049   1.518   6.545  1.00  0.00           C
+ATOM     13   C  MOL     1       3.989   2.311   7.001  1.00  0.00           C
+ATOM     14   C  MOL     1       3.958   3.683   6.754  1.00  0.00           C
+ATOM     15   C  MOL     1       2.733   4.425   6.735  1.00  0.00           C
+ATOM     16   C  MOL     1       2.721   5.808   6.453  1.00  0.00           C
+ATOM     17   P  MOL     1       1.785   1.733   6.143  1.00  0.00           P
+ATOM     18   O  MOL     1       1.503   2.291   7.662  1.00  0.00           O
+ATOM     19   H  MOL     1       3.311   1.865   7.717  1.00  0.00           H
+TER
+ENDMDL
+MODEL         4
+REMARK   Converted from the neb_initial file
+REMARK   Converted using VASPKIT
+CRYST1    7.297    7.297   15.000  90.00  90.00 117.11
+ATOM      1   C  MOL     1       3.945   6.438   6.205  1.00  0.00           C
+ATOM      2   C  MOL     1       0.085   1.306   6.066  1.00  0.00           C
+ATOM      3   C  MOL     1      -1.000   2.164   6.273  1.00  0.00           C
+ATOM      4   C  MOL     1      -0.900   3.610   6.387  1.00  0.00           C
+ATOM      5   C  MOL     1      -2.110   4.325   6.408  1.00  0.00           C
+ATOM      6   C  MOL     1      -2.113   5.729   6.268  1.00  0.00           C
+ATOM      7   C  MOL     1       2.361   0.012   6.297  1.00  0.00           C
+ATOM      8   C  MOL     1       1.530   3.738   6.744  1.00  0.00           C
+ATOM      9   C  MOL     1       0.305   4.392   6.495  1.00  0.00           C
+ATOM     10   C  MOL     1       0.290   5.864   6.445  1.00  0.00           C
+ATOM     11   C  MOL     1       4.878   0.073   6.489  1.00  0.00           C
+ATOM     12   C  MOL     1       5.047   1.509   6.542  1.00  0.00           C
+ATOM     13   C  MOL     1       3.991   2.311   6.989  1.00  0.00           C
+ATOM     14   C  MOL     1       3.967   3.678   6.719  1.00  0.00           C
+ATOM     15   C  MOL     1       2.737   4.408   6.682  1.00  0.00           C
+ATOM     16   C  MOL     1       2.725   5.798   6.432  1.00  0.00           C
+ATOM     17   P  MOL     1       1.756   1.738   6.290  1.00  0.00           P
+ATOM     18   O  MOL     1       1.510   2.171   7.806  1.00  0.00           O
+ATOM     19   H  MOL     1       3.321   1.888   7.728  1.00  0.00           H
+TER
+ENDMDL
+MODEL         5
+REMARK   Converted from the neb_initial file
+REMARK   Converted using VASPKIT
+CRYST1    7.297    7.297   15.000  90.00  90.00 117.11
+ATOM      1   C  MOL     1       3.950   6.433   6.206  1.00  0.00           C
+ATOM      2   C  MOL     1       0.086   1.304   6.101  1.00  0.00           C
+ATOM      3   C  MOL     1      -1.003   2.157   6.276  1.00  0.00           C
+ATOM      4   C  MOL     1      -0.896   3.603   6.372  1.00  0.00           C
+ATOM      5   C  MOL     1      -2.102   4.323   6.385  1.00  0.00           C
+ATOM      6   C  MOL     1      -2.105   5.728   6.257  1.00  0.00           C
+ATOM      7   C  MOL     1       2.370   0.010   6.306  1.00  0.00           C
+ATOM      8   C  MOL     1       1.543   3.706   6.668  1.00  0.00           C
+ATOM      9   C  MOL     1       0.315   4.374   6.466  1.00  0.00           C
+ATOM     10   C  MOL     1       0.296   5.853   6.440  1.00  0.00           C
+ATOM     11   C  MOL     1       4.883   0.063   6.484  1.00  0.00           C
+ATOM     12   C  MOL     1       5.045   1.500   6.538  1.00  0.00           C
+ATOM     13   C  MOL     1       3.994   2.312   6.977  1.00  0.00           C
+ATOM     14   C  MOL     1       3.975   3.673   6.683  1.00  0.00           C
+ATOM     15   C  MOL     1       2.741   4.392   6.629  1.00  0.00           C
+ATOM     16   C  MOL     1       2.729   5.788   6.410  1.00  0.00           C
+ATOM     17   P  MOL     1       1.728   1.744   6.436  1.00  0.00           P
+ATOM     18   O  MOL     1       1.518   2.051   7.949  1.00  0.00           O
+ATOM     19   H  MOL     1       3.330   1.911   7.738  1.00  0.00           H
+TER
+ENDMDL
+MODEL         6
+REMARK   Converted from the neb_initial file
+REMARK   Converted using VASPKIT
+CRYST1    7.297    7.297   15.000  90.00  90.00 117.11
+ATOM      1   C  MOL     1       3.955   6.429   6.208  1.00  0.00           C
+ATOM      2   C  MOL     1       0.087   1.302   6.137  1.00  0.00           C
+ATOM      3   C  MOL     1      -1.005   2.151   6.280  1.00  0.00           C
+ATOM      4   C  MOL     1      -0.892   3.596   6.358  1.00  0.00           C
+ATOM      5   C  MOL     1      -2.094   4.320   6.361  1.00  0.00           C
+ATOM      6   C  MOL     1      -2.096   5.728   6.247  1.00  0.00           C
+ATOM      7   C  MOL     1       2.378   0.008   6.315  1.00  0.00           C
+ATOM      8   C  MOL     1       1.556   3.674   6.592  1.00  0.00           C
+ATOM      9   C  MOL     1       0.324   4.356   6.436  1.00  0.00           C
+ATOM     10   C  MOL     1       0.302   5.842   6.435  1.00  0.00           C
+ATOM     11   C  MOL     1       4.887   0.053   6.479  1.00  0.00           C
+ATOM     12   C  MOL     1       5.042   1.491   6.535  1.00  0.00           C
+ATOM     13   C  MOL     1       3.996   2.312   6.965  1.00  0.00           C
+ATOM     14   C  MOL     1       3.983   3.667   6.647  1.00  0.00           C
+ATOM     15   C  MOL     1       2.744   4.376   6.576  1.00  0.00           C
+ATOM     16   C  MOL     1       2.733   5.778   6.389  1.00  0.00           C
+ATOM     17   P  MOL     1       1.700   1.749   6.583  1.00  0.00           P
+ATOM     18   O  MOL     1       1.525   1.930   8.093  1.00  0.00           O
+ATOM     19   H  MOL     1       3.340   1.935   7.749  1.00  0.00           H
+TER
+ENDMDL
+MODEL         7
+REMARK   Converted from the neb_initial file
+REMARK   Converted using VASPKIT
+CRYST1    7.297    7.297   15.000  90.00  90.00 117.11
+ATOM      1   C  MOL     1       3.961   6.424   6.209  1.00  0.00           C
+ATOM      2   C  MOL     1       0.088   1.300   6.172  1.00  0.00           C
+ATOM      3   C  MOL     1      -1.008   2.144   6.284  1.00  0.00           C
+ATOM      4   C  MOL     1      -0.888   3.589   6.343  1.00  0.00           C
+ATOM      5   C  MOL     1      -2.085   4.318   6.338  1.00  0.00           C
+ATOM      6   C  MOL     1      -2.088   5.727   6.236  1.00  0.00           C
+ATOM      7   C  MOL     1       2.387   0.006   6.324  1.00  0.00           C
+ATOM      8   C  MOL     1       1.569   3.642   6.517  1.00  0.00           C
+ATOM      9   C  MOL     1       0.334   4.337   6.407  1.00  0.00           C
+ATOM     10   C  MOL     1       0.308   5.831   6.430  1.00  0.00           C
+ATOM     11   C  MOL     1       4.891   0.043   6.474  1.00  0.00           C
+ATOM     12   C  MOL     1       5.040   1.482   6.532  1.00  0.00           C
+ATOM     13   C  MOL     1       3.999   2.312   6.953  1.00  0.00           C
+ATOM     14   C  MOL     1       3.991   3.662   6.612  1.00  0.00           C
+ATOM     15   C  MOL     1       2.748   4.359   6.522  1.00  0.00           C
+ATOM     16   C  MOL     1       2.736   5.768   6.368  1.00  0.00           C
+ATOM     17   P  MOL     1       1.671   1.754   6.729  1.00  0.00           P
+ATOM     18   O  MOL     1       1.533   1.810   8.236  1.00  0.00           O
+ATOM     19   H  MOL     1       3.349   1.958   7.760  1.00  0.00           H
+TER
+ENDMDL
+MODEL         8
+REMARK   Converted from the neb_initial file
+REMARK   Converted using VASPKIT
+CRYST1    7.297    7.297   15.000  90.00  90.00 117.11
+ATOM      1   C  MOL     1       3.966   6.419   6.211  1.00  0.00           C
+ATOM      2   C  MOL     1       0.089   1.298   6.208  1.00  0.00           C
+ATOM      3   C  MOL     1      -1.010   2.138   6.288  1.00  0.00           C
+ATOM      4   C  MOL     1      -0.884   3.583   6.329  1.00  0.00           C
+ATOM      5   C  MOL     1      -2.077   4.315   6.314  1.00  0.00           C
+ATOM      6   C  MOL     1      -2.080   5.727   6.225  1.00  0.00           C
+ATOM      7   C  MOL     1       2.395   0.004   6.333  1.00  0.00           C
+ATOM      8   C  MOL     1       1.583   3.609   6.441  1.00  0.00           C
+ATOM      9   C  MOL     1       0.343   4.319   6.377  1.00  0.00           C
+ATOM     10   C  MOL     1       0.314   5.820   6.425  1.00  0.00           C
+ATOM     11   C  MOL     1       4.896   0.032   6.470  1.00  0.00           C
+ATOM     12   C  MOL     1       5.038   1.474   6.529  1.00  0.00           C
+ATOM     13   C  MOL     1       4.001   2.312   6.941  1.00  0.00           C
+ATOM     14   C  MOL     1       4.000   3.657   6.576  1.00  0.00           C
+ATOM     15   C  MOL     1       2.752   4.343   6.469  1.00  0.00           C
+ATOM     16   C  MOL     1       2.740   5.758   6.346  1.00  0.00           C
+ATOM     17   P  MOL     1       1.643   1.759   6.876  1.00  0.00           P
+ATOM     18   O  MOL     1       1.540   1.689   8.380  1.00  0.00           O
+ATOM     19   H  MOL     1       3.359   1.982   7.770  1.00  0.00           H
+TER
+ENDMDL

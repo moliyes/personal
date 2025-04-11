@@ -1,0 +1,8 @@
+Frequence Calculations
+  NSW    =  1            (number of ionic steps. Make it odd.)
+  ISMEAR =  0            (gaussian smearing method )
+  SIGMA  =  0.05         (please check the width of the smearing)
+  IBRION =  5            (frequence calculation)
+  POTIM  =  0.02         (displacement step)
+  NFREE  =  2            (displacement freedom)
+ 

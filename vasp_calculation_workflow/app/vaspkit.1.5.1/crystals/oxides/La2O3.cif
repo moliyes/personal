@@ -1,0 +1,57 @@
+data_La2O3
+_audit_creation_date              2022-06-09
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P-3M1'
+_symmetry_Int_Tables_number       164
+_symmetry_cell_setting            trigonal
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -y,x-y,z
+  -x+y,-x,z
+  y,x,-z
+  x-y,-y,-z
+  -x,-x+y,-z
+  -x,-y,-z
+  y,-x+y,-z
+  x-y,x,-z
+  -y,-x,z
+  -x+y,y,z
+  x,x-y,z
+_cell_length_a                    3.9390
+_cell_length_b                    3.9390
+_cell_length_c                    6.1360
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 120.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+O2     O     0.00000   0.00000   0.00000   0.00000  Uiso   1.00
+LA1    La    0.33333   0.66667   0.24670   0.00000  Uiso   1.00
+O1     O     0.33333   0.66667   0.64700   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+O2     LA1     2.732   1_545 S
+O2     LA1     2.732   1_445 S
+O2     LA1     2.732   4_455 S
+O2     LA1     2.732   4     S
+O2     LA1     2.732   4_445 S
+LA1    O2      2.732   1_565 S
+LA1    O2      2.732   1_665 S
+LA1    O1      2.366   4_556 S
+LA1    O1      2.366   4_566 S
+LA1    O1      2.366   4_456 S
+O1     LA1     2.366   4_556 S
+O1     LA1     2.366   4_566 S
+O1     LA1     2.366   4_456 S

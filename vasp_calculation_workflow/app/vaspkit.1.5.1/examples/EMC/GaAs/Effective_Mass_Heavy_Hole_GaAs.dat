@@ -1,0 +1,7 @@
+ +-------------------------- Summary ----------------------------+
+ BAND index:    9    Effective-Mass (in m0)  Fitting-Precision
+ KPATH No.1: G->K        -2.431                  0.129E-10
+ KPATH No.2: G->L        -0.819                  0.807E-10
+ KPATH No.3: G->X        -0.354 [1]              0.334E-08
+ +---------------------------------------------------------------+
+ [1] The experimental value is 0.35 m0 in PRB 82, 205212 (2010)

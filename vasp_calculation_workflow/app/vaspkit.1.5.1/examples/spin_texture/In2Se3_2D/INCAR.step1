@@ -1,0 +1,18 @@
+Global Parameters
+ISTART = 1
+LREAL = .FALSE.
+PREC =   A
+LWAVE = .TRUE.
+LCHARG = .TRUE.
+ADDGRID= .TRUE.
+ 
+Static Calculation
+#ICHARG = 11
+ISMEAR = 0
+SIGMA = 0.05
+LORBIT = 11
+NEDOS = 2001
+NELM = 60
+EDIFF = 1E-08
+
+NBANDS = 36

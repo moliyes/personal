@@ -1,0 +1,14 @@
+Electronic Relaxation
+  ISMEAR =  0
+  SIGMA  =  0.05
+  EDIFF  =  1E-08
+ 
+GW Calculation including LWANNIER90 TAG
+  ALGO      =  GW0
+  LSPECTRAL = .TRUE.
+  NOMEGA    =  60
+  NEDOS     =  2000
+  NLEM      =  1         (1-G0W0, 4-GW0)
+  NBANDS    =            (Take the same number of bands in the previous step)
+  ! LWANNIER90 =.TRUE.   (Switches on the interface between VASP and WANNIER90)
+ 

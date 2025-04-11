@@ -1,0 +1,10 @@
+# Atom ID       d-Band-Center (UP)       d-Band-Center (DOWN)        (in eV)
+    Ni1:            -1.2151                  -0.5896
+    Ni2:            -1.4293                  -0.7990
+    Ni3:            -1.3996                  -0.8244
+    Ni4:            -1.4309                  -0.7979
+    Ni5:            -1.2165                  -0.5892
+  Total:            -1.3387                  -0.7205
+
+
+Notice that the calculated d-Band-Center presented here are referenced to Fermi level, i.e., E_F=0 eV

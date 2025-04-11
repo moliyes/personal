@@ -1,0 +1,41 @@
+ In SCAN_BEGIN, can't find: LATTICE_PARAMETERS block.
+ In SCAN_BEGIN, can't find: <PP_MESH block.
+ AUTO_SET NBANDS to 0
+ AUTO_SET NBANDS to 14
+      Processor           Atom
+              1             24
+              2             24
+                            startmag_type = 2
+                       charge from rho_at = 3.99303
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 8
+           total electron number from rho = 8
+                                should be = 8
+                 charge before normalized = 8
+                  charge after normalized = 8
+                 charge before normalized = 8.00001819830699
+                  charge after normalized = 7.99999999999998
+                 charge before normalized = 8.00002766636257
+                  charge after normalized = 7.99999999999997
+                 charge before normalized = 8.00002749812986
+                  charge after normalized = 7.99999999999998
+                 charge before normalized = 8.00002748793222
+                  charge after normalized = 8.00000000000001
+                 charge before normalized = 8.00002748765042
+                  charge after normalized = 8.00000000000001
+                 charge before normalized = 8.00002748771936
+                  charge after normalized = 8.00000000000003
+                 charge before normalized = 8.00002748778607
+                  charge after normalized = 7.99999999999999
+                 charge before normalized = 8.00002748776823
+                  charge after normalized = 7.99999999999999
+                            startmag_type = 2
+                       charge from rho_at = 3.99303358802096
+                         charge should be = 4
+
+ SETUP ATOMIC RHO FOR SPIN 1
+                 Electron number from rho = 8.00000000000002
+           total electron number from rho = 8.00000000000002
+                                should be = 8

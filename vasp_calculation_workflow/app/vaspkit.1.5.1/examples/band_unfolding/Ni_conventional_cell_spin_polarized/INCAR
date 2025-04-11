@@ -1,0 +1,18 @@
+Global Parameters
+ISTART = 1
+ISPIN  = 2
+LREAL = .FALSE.
+PREC = Normal
+LWAVE = .TRUE.
+LCHARG = F
+ADDGRID= F
+LORBIT = 11
+NBANDS =60 
+ 
+Electronic Relaxation
+ISMEAR =0
+SIGMA = 0.05
+NELM = 60
+NELMIN = 6
+ 
+ 

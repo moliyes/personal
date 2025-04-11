@@ -1,0 +1,25 @@
+#General
+PREC = ACCURATE
+ISTART= 0
+ENCUT = 500
+EDIFF = 1E-10
+EDIFFG = -0.001
+LREAL = .F.
+NPAR = 4
+NSW= 0
+IBRION = -1
+ISMEAR = 1
+SIGMA = 0.01
+LCHARG = T
+LWAVE = T
+POTIM = 0.5
+NEDOS = 2001i
+NBANDS = 36
+
+#Magnetic properties
+ISPIN=2
+MAGMOM = 4*5
+NELMIN = 6
+LORBIT = 11
+LMAXMIX = 4  ! for d-elements increase LMAXMIX to 4, f-elements: LMAXMIX = 6
+GGA_COMPAT=.FALSE. 

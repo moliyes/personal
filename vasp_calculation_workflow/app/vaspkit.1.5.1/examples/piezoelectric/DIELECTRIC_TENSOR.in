@@ -1,0 +1,4 @@
+Read total Total dielectric tensor from the PIEZOELECTRIC_TENSOR.in file if it exists.
+    8.028982    0.000000    0.000000
+    0.000000    8.028982    0.000000
+    0.000000    0.000000    9.506294
