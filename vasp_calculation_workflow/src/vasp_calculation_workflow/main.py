@@ -4,8 +4,7 @@ import json
 from typing import List, Dict
 from pydantic import BaseModel, Field
 from crewai import LLM
-from crewai.flow.flow import Flow, listen, start
-from vasp_calculation_workflow.crews.parameter_crew.parameter_crew import ParameterCrew
+from crewai.flow.flow import Flow, listen, start,router
 from vasp_calculation_workflow.crews.pos_validator.pos_validator import PosValidator
 from vasp_calculation_workflow.crews.parameter_configurator.parameter_configurator import ParameterConfigurator
 
@@ -49,8 +48,9 @@ class VaspCalculationFlow(Flow[VaspState]):
 
         return self.state
     
-    @listen(getposcar)
-    def generate(self,state):
+    
+    @router(getposcar)
+    def route(self,state):
         val_result = PosValidator().crew().kickoff(inputs={"poscar": state.poscar})
         print(f"\nPOSCAR的验证结果为：\n{val_result.raw}\n ")
         
@@ -60,56 +60,69 @@ class VaspCalculationFlow(Flow[VaspState]):
             print("请输入y,Y,n或N:")
         
         if answer in ["Y","y"]:
-            parameter_result = ParameterConfigurator().crew().kickoff(inputs={"poscar": state.poscar})
-            parameter_content = parameter_result.raw
-            print(f"\n生成参数内容为:\n{parameter_content}\n")
-            # 使用正则表达式匹配内容
-            pattern = r'KPOINTS:\s*```(.*?)```.*?INCAR:\s*```(.*?)```'
-            match = re.search(pattern, parameter_content, re.DOTALL)
+            return "continue"
+        else:
+            return "stop"
+        
+    @listen("stop")
+    def finish(self,state):
+        print("----------工作结束，请修改POSCAR文件--------\n")
+        return
 
-            #存储kpoints和incar
-            kpoints = match.group(1).strip() if match else ''
-            incar = match.group(2).strip() if match else ''
-            self.state.kpoints = kpoints
-            self.state.incar = incar
 
-            print(f"\nKPOINTS:\n{kpoints}\nINCAR:\n{incar}\n")
+    @listen("continue")
+    def generate(self,state):
+    
+        parameter_result = ParameterConfigurator().crew().kickoff(inputs={"poscar": state.poscar}) #调用生成参数代理
+        parameter_content = parameter_result.raw
+        print(f"\n生成参数内容为:\n{parameter_content}\n")
+        # 使用正则表达式匹配内容
+        pattern = r'KPOINTS:\s*```(.*?)```.*?INCAR:\s*```(.*?)```'
+        match = re.search(pattern, parameter_content, re.DOTALL)
 
-            #参数写入文件中
-            current_file = os.path.abspath(__file__)
-            project_root = os.path.dirname(os.path.dirname(os.path.dirname(current_file)))
-            with open(os.path.join(project_root, 'vasp', 'KPOINTS'), 'w', encoding='utf-8', newline='\n') as f: 
-                f.write(self.state.kpoints)
-            with open(os.path.join(project_root, 'vasp', 'INCAR'), 'w', encoding='utf-8', newline='\n') as f:
-                f.write(self.state.incar)
+        #存储kpoints和incar
+        kpoints = match.group(1).strip() if match else ''
+        incar = match.group(2).strip() if match else ''
+        self.state.kpoints = kpoints
+        self.state.incar = incar
 
-            print("\n已将参数写入KPOINTS和INCAR中")
+        print(f"\nKPOINTS:\n{kpoints}\nINCAR:\n{incar}\n")
 
-            vasproot = os.path.join(project_root,'vasp')
-            command = [
-                "bohr",
-                "job",
-                "submit",
-                "-i", os.path.abspath(os.path.join(vasproot, "job.json")),  # 完整路径
-                "-p", os.path.abspath(vasproot)  # 目录绝对路径
-            ]
+        #参数写入文件中
+        current_file = os.path.abspath(__file__)
+        project_root = os.path.dirname(os.path.dirname(os.path.dirname(current_file)))
+        with open(os.path.join(project_root, 'vasp', 'KPOINTS'), 'w', encoding='utf-8', newline='\n') as f: 
+            f.write(self.state.kpoints)
+        with open(os.path.join(project_root, 'vasp', 'INCAR'), 'w', encoding='utf-8', newline='\n') as f:
+            f.write(self.state.incar)
 
-            try:
-                # 安全执行命令（推荐使用列表形式避免shell注入）
-                result = subprocess.run(
-                    command,
-                    check=True,
-                    text=True,
-                    stdout=subprocess.PIPE,
-                    stderr=subprocess.PIPE
-                )
-                print("命令执行成功！输出：\n", result.stdout)
-            except subprocess.CalledProcessError as e:
-                print(f"命令执行失败（状态码 {e.returncode}）:")
-                print("错误输出：\n", e.stderr)
-            except FileNotFoundError:
-                print("错误：未找到 bohr 命令，请确保：")
-                print("1. bohr 已正确安装\n2. 已添加到系统PATH环境变量\n3. 当前终端会话可识别bohr")
+        print("\n已将参数写入KPOINTS和INCAR中")
+
+        vasproot = os.path.join(project_root,'vasp')
+        command = [
+            "bohr",
+            "job",
+            "submit",
+            "-i", os.path.abspath(os.path.join(vasproot, "job.json")),  # 完整路径
+            "-p", os.path.abspath(vasproot)  # 目录绝对路径
+        ]
+
+        try:
+            # 安全执行命令（推荐使用列表形式避免shell注入）
+            result = subprocess.run(
+                command,
+                check=True,
+                text=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE
+            )
+            print("命令执行成功！输出：\n", result.stdout)
+        except subprocess.CalledProcessError as e:
+            print(f"命令执行失败（状态码 {e.returncode}）:")
+            print("错误输出：\n", e.stderr)
+        except FileNotFoundError:
+            print("错误：未找到 bohr 命令，请确保：")
+            print("1. bohr 已正确安装\n2. 已添加到系统PATH环境变量\n3. 当前终端会话可识别bohr")
             
 
 def kickoff():

@@ -2,7 +2,7 @@ vaspkit_task:
   description: >
     POSCAR文件已经在指定存储位置，直接调用vaspkit工具，生成用于结构优化的INCAR和KPOINTS文件。
   expected_output: >
-    执行调用操作，返回说明文字
+    执行工具调用，返回说明文字以说明你准备进行何种计算
   agent: vaspkit_operator
 
 
