@@ -1,5 +1,5 @@
-K-Spacing Value to Generate K-Mesh: 0.040
+K-Spacing Value to Generate K-Mesh: 0.020
 0
-Gamma
-   9   9   2
+Monkhorst-Pack
+  15  15   4
 0.0  0.0  0.0

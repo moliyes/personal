@@ -1,6 +1,5 @@
 #!/usr/bin/env python
-import os,sys,re,subprocess
-import json
+import os,re,subprocess
 from typing import List, Dict
 from pydantic import BaseModel, Field
 from crewai import LLM
@@ -50,7 +49,7 @@ class VaspCalculationFlow(Flow[VaspState]):
     
     
     @router(getposcar)
-    def route(self,state):
+    def validator(self,state):
         val_result = PosValidator().crew().kickoff(inputs={"poscar": state.poscar})
         print(f"\nPOSCAR的验证结果为：\n{val_result.raw}\n ")
         
