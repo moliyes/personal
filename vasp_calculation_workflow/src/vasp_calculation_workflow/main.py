@@ -68,10 +68,22 @@ class VaspCalculationFlow(Flow[VaspState]):
         print("----------工作结束，请修改POSCAR文件--------\n")
         return
 
-
     @listen("continue")
+    @router(validator)
+    def llm_or_vaspkit(self,state):             #路由分支，使用vaspkit或是gpt-o1
+        while True:
+            answer = input("是否使用Vaspkit?(y/n)，若否则调用gpt-o1生成参数:")
+            if answer in ["y","Y","N","n"]: break      
+            print("请输入y,Y,n或N:")
+        
+        if answer in ["Y","y"]:
+            return "vaspkit"
+        else:
+            return "llm"
+        
+    @listen("llm")
     def generate(self,state):
-    
+
         parameter_result = ParameterConfigurator().crew().kickoff(inputs={"poscar": state.poscar}) #调用生成参数代理
         parameter_content = parameter_result.raw
         print(f"\n生成参数内容为:\n{parameter_content}\n")
