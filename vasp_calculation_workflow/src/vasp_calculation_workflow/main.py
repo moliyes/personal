@@ -6,7 +6,7 @@ from crewai import LLM
 from crewai.flow.flow import Flow, listen, start,router
 from vasp_calculation_workflow.crews.pos_validator.pos_validator import PosValidator
 from vasp_calculation_workflow.crews.parameter_configurator.parameter_configurator import ParameterConfigurator
-
+from vasp_calculation_workflow.crews.vaspkit_crew.vaspkit_crew import VaspkitCrew
 # 定义流程状态模型
 class VaspState(BaseModel):
     poscar: str = ""
@@ -21,7 +21,7 @@ class VaspCalculationFlow(Flow[VaspState]):
         project_root = os.path.dirname(os.path.dirname(os.path.dirname(current_file)))
         return os.path.join(project_root, 'vasp', 'POSCAR')
 
-    def _read_poscar(self, path: str) -> str:
+    def _read_car(self, path: str) -> str:
         """安全读取POSCAR文件内容"""
         try:
             with open(path, 'r', encoding='utf-8') as f:
@@ -39,7 +39,7 @@ class VaspCalculationFlow(Flow[VaspState]):
         
         # 读取并验证文件内容
         try:
-            self.state.poscar = self._read_poscar(poscar_path)
+            self.state.poscar = self._read_car(poscar_path)
             print("成功加载POSCAR内容")
             print(f"\n{self.state.poscar}")
         except RuntimeError as e:
@@ -81,8 +81,25 @@ class VaspCalculationFlow(Flow[VaspState]):
         else:
             return "llm"
         
+
+    @listen("vaspkit")
+    def vaspkit_agent_generate(self,state):
+        parameter_result = VaspkitCrew().crew().kickoff(inputs={"poscar": state.poscar}) #调用生成参数代理
+        print(f"\nVaspkit调用说明：\n{parameter_result.raw}\n ")
+        ###更新状态
+        current_file = os.path.abspath(__file__)
+        project_root = os.path.dirname(os.path.dirname(os.path.dirname(current_file)))
+        incar_path = os.path.join(project_root, 'vasp', 'INCAR')
+        kpoints_path = os.path.join(project_root, 'vasp', 'KPOINTS')
+        self.state.incar = self._read_car(incar_path)
+        self.state.kpoints = self._read_car(kpoints_path)
+
+        return "vaspkit over"
+
+
+        
     @listen("llm")
-    def generate(self,state):
+    def parameter_generate(self,state):
 
         parameter_result = ParameterConfigurator().crew().kickoff(inputs={"poscar": state.poscar}) #调用生成参数代理
         parameter_content = parameter_result.raw
@@ -91,7 +108,7 @@ class VaspCalculationFlow(Flow[VaspState]):
         pattern = r'KPOINTS:\s*```(.*?)```.*?INCAR:\s*```(.*?)```'
         match = re.search(pattern, parameter_content, re.DOTALL)
 
-        #存储kpoints和incar
+        #存储kpoints和incar到state
         kpoints = match.group(1).strip() if match else ''
         incar = match.group(2).strip() if match else ''
         self.state.kpoints = kpoints
@@ -108,6 +125,9 @@ class VaspCalculationFlow(Flow[VaspState]):
             f.write(self.state.incar)
 
         print("\n已将参数写入KPOINTS和INCAR中")
+
+
+
 
         vasproot = os.path.join(project_root,'vasp')
         command = [
@@ -145,7 +165,7 @@ def kickoff():
 def plot():
     """Generate a visualization of the flow"""
     flow = VaspCalculationFlow()
-    flow.plot("guide_creator_flow")
+    flow.plot("VaspCalculationFlow")
     print("可视化工作流保存至 VaspCalculationFlow.html")
 
 

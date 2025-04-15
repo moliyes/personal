@@ -1,4 +1,4 @@
-from crewai import Agent, Crew, Process, Task
+from crewai import Agent, Crew, Process, Task,LLM
 from crewai.project import CrewBase, agent, crew, task
 from vasp_calculation_workflow.tools.vaspkit_tool import VaspkitTool
 
@@ -22,7 +22,8 @@ class VaspkitCrew():
     def vaspkit_operator(self) -> Agent:
         return Agent(
             config=self.agents_config['vaspkit_operator'],
-            tools = [VaspkitTool],
+            tools = [VaspkitTool()],
+            llm = LLM(model="deepseek/deepseek-chat",base_url="https://vip.apiyi.com/v1"),
             verbose=True
         )
 

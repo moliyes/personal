@@ -5,12 +5,12 @@ from pydantic import BaseModel, Field
 
 class Vaspkit_input(BaseModel):
     """Input schema for MyCustomTool."""
-    Code: str = Field("SR",description="vaspkit计算类型代号,计算类型代号列表如下：ST) Static-Calculation,SR) Standard Relaxation,LR) Lattice Relaxation,MG) Magnetic Properties,D3) DFT-D3 no-damping Correction,默认为SR,可以选择其中的一个或多个选项，例如LRD3")
-    is_Hexagonal: str = Field("1",description="是六方晶系结构，则取'2',否则取'1'")
+    Code: str = Field("",description="vaspkit计算类型代号,计算类型代号列表如下：ST) 静态计算,SR) 标准弛豫,LR) 晶格弛豫,MG)磁性特性,D3) DFT-D3 无阻尼校正。可以选择其中的一个或多个选项，例如LRD3")
+    is_Hexagonal: str = Field("",description="是否为六方晶系结构，是则取2,否则取1")
 
 class VaspkitTool(BaseTool):
     name: str = "vaspkit计算参数生成器"
-    description: str = ("接受特定的计算类型代号作为参数，该工具被调用后自动在指定文件夹根据PSCAR生成用于结构优化的INCAR和KPOINTS" )
+    description: str = "接受特定的计算类型代号作为参数，该工具被调用后自动在指定文件夹根据PSCAR生成用于结构优化的INCAR和KPOINTS，返回生成参数文件所在的目录" 
     args_schema: Type[BaseModel] = Vaspkit_input
 
     def _execute_vaspkit_flow(self, cwd: str, command_flow: list):
@@ -31,8 +31,7 @@ class VaspkitTool(BaseTool):
     def _run(self, Code: str, is_Hexagonal:str) -> str:
         current_file = os.path.abspath(__file__)
         work_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(current_file))))
-        cwd=os.path.abspath(os.path.join(work_dir, "vasp2"))
-
+        cwd=os.path.abspath(os.path.join(work_dir, "vasp"))
                 # 验证目录
         if not os.path.isdir(cwd):
             return f"错误：工作目录 {cwd} 不存在"
@@ -80,10 +79,10 @@ if __name__ == "__main__":
     print("\n" + "="*40)
     if "成功" in result:
         print(f"✅ 测试结果：{result}")
-        print(f"请检查 {os.path.abspath('vasp2')} 目录中的 INCAR 和 KPOINTS 文件")
+        print(f"请检查 {os.path.abspath('vasp')} 目录中的 INCAR 和 KPOINTS 文件")
     else:
         print(f"❌ 测试失败：{result}")
         print("可能的问题：")
         print("- 请确保已安装 vaspkit 并添加到环境变量")
-        print("- 检查工作目录是否存在：vasp2/")
+        print("- 检查工作目录是否存在：vasp/")
         print("- 确认晶系参数与结构文件匹配")
