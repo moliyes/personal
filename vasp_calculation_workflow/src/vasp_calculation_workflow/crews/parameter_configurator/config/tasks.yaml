@@ -1,21 +1,31 @@
 configuration_task:
   description: >
-    基于验证后的POSCAR文件内容{poscar}生成用于结构优化的参数文件KPOINTS和INCAR，你的思考可能包括但不限于：
-    1. 维度判别：
-       - 块体：Z方向重复数>3
-       - 表面：真空层>10Å
-       - 分子：总原子数<50
-    2. 电子收敛设置：
+    基于验证后的POSCAR文件内容,INCAR文件内容,KPOINTS文件内容生成或修改用于结构优化的参数文件KPOINTS和INCAR(若后两个文件内容非空,则在他们的基础上参考用户指引修改)，
+    POSCAR内容:
+    ```
+    {poscar}
+    ```
+    INCAR内容:
+    ```
+    {incar}
+    ```
+    KPOINGTS内容:
+    ```
+    {kpoints}
+    ```
+    用户强调信息：{description}
+    你的思考可能包括但不限于：
+    1. 电子收敛设置：
        - EDIFF=1E-5~1E-7（金属取低值）
        - EDIFFG（力收敛标准）,原子弛豫收敛标准。默认为EDIFF*10。如果为正，表示总能只差小于EDIFFG时停止弛豫。如果为负，则原子所受最大力小于EDIFFG的绝对值时停止弛豫，一般取负值的收敛性更好，如取当EDIFF=1.0E-06时候，可以取EDIFFG=-0.01
-    3. 离子弛豫：
-       - IBRION=2（准牛顿优化）
+    2. 离子弛豫：
+       - IBRION=1 （准牛顿法离子弛豫,速度快）
+       - IBRION=2（共轭梯度法离子弛豫，速度适中，做离子弛豫时推荐使用此设置）
+       - IBRION=3（用阻尼分子动力学作离子弛豫）
        - NSW=100-200（根据体系大小）
-    4. K点策略：
-       - 块体：Gamma中心网格，密度≥2π×0.03 Å⁻¹
-       - 表面：非对称网格（如8×8×1）
-       - 分子：Γ点+实空间截断
-    5. 关键参数逻辑：
+    3. K点策略：
+       - Gamma centered（六方晶系需要采用）或Monkhorst-Pack
+    4. 关键参数逻辑：
        - PREC=Accurate 时 ENCUT自动提升20%,且最低不低于500 eV
        - ISMEAR选择：
          • ISMEAR=N (N>0): method of Methfessel-Paxton order N。金属体系常用。做金属的结构优化的时候，通常用N=1或2的情况。并取SIGMA= 0.2。即（less than 1 meV per atom）。半导体或者绝缘体最好不要用这类方法，因为容易引起问题。
@@ -35,7 +45,7 @@ configuration_task:
 
 
     输出的严格格式如下，'```'内只包含参数设置不包含注释，确保能直接用于提交：
-    "说明文字..."
+    "解释和说明文字..."
     KPOINTS:
     ```
     content

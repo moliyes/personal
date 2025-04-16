@@ -3,7 +3,7 @@ import os,re,subprocess
 from typing import List, Dict
 from pydantic import BaseModel, Field
 from crewai import LLM
-from crewai.flow.flow import Flow, listen, start,router
+from crewai.flow.flow import Flow, listen, start,router,or_
 from vasp_calculation_workflow.crews.pos_validator.pos_validator import PosValidator
 from vasp_calculation_workflow.crews.parameter_configurator.parameter_configurator import ParameterConfigurator
 from vasp_calculation_workflow.crews.vaspkit_crew.vaspkit_crew import VaspkitCrew
@@ -12,6 +12,7 @@ class VaspState(BaseModel):
     poscar: str = ""
     incar: str = ""
     kpoints: str = ""
+    description: str = ""
 
 class VaspCalculationFlow(Flow[VaspState]):
     """vasp计算工作流"""
@@ -22,12 +23,12 @@ class VaspCalculationFlow(Flow[VaspState]):
         return os.path.join(project_root, 'vasp', 'POSCAR')
 
     def _read_car(self, path: str) -> str:
-        """安全读取POSCAR文件内容"""
+        """安全读取文件内容"""
         try:
             with open(path, 'r', encoding='utf-8') as f:
                 return f.read()
         except FileNotFoundError:
-            raise RuntimeError(f"POSCAR文件不存在于路径: {path}")
+            raise RuntimeError(f"CAR文件不存在于路径: {path}")
         except UnicodeDecodeError:
             raise RuntimeError("文件编码错误，请确保使用UTF-8格式")
     @start()
@@ -50,7 +51,7 @@ class VaspCalculationFlow(Flow[VaspState]):
     
     @router(getposcar)
     def validator(self,state):
-        val_result = PosValidator().crew().kickoff(inputs={"poscar": state.poscar})
+        val_result = PosValidator().crew().kickoff(inputs={"poscar": self.state.poscar})
         print(f"\nPOSCAR的验证结果为：\n{val_result.raw}\n ")
         
         while True:
@@ -65,11 +66,11 @@ class VaspCalculationFlow(Flow[VaspState]):
         
     @listen("stop")
     def finish(self,state):
-        print("----------工作结束，请修改POSCAR文件--------\n")
+        print("===========================工作结束，请修改POSCAR文件===========================\n")
         return
 
     @listen("continue")
-    @router(validator)
+    @router(validator) 
     def llm_or_vaspkit(self,state):             #路由分支，使用vaspkit或是gpt-o1
         while True:
             answer = input("是否使用Vaspkit?(y/n)，若否则调用gpt-o1生成参数:")
@@ -84,7 +85,7 @@ class VaspCalculationFlow(Flow[VaspState]):
 
     @listen("vaspkit")
     def vaspkit_agent_generate(self,state):
-        parameter_result = VaspkitCrew().crew().kickoff(inputs={"poscar": state.poscar}) #调用生成参数代理
+        parameter_result = VaspkitCrew().crew().kickoff(inputs={"poscar": self.state.poscar,"description":self.state.description}) #调用vaspkit生成参数代理
         print(f"\nVaspkit调用说明：\n{parameter_result.raw}\n ")
         ###更新状态
         current_file = os.path.abspath(__file__)
@@ -97,11 +98,10 @@ class VaspCalculationFlow(Flow[VaspState]):
         return "vaspkit over"
 
 
-        
     @listen("llm")
     def parameter_generate(self,state):
 
-        parameter_result = ParameterConfigurator().crew().kickoff(inputs={"poscar": state.poscar}) #调用生成参数代理
+        parameter_result = ParameterConfigurator().crew().kickoff(inputs={"poscar": self.state.poscar,"incar":self.state.incar,"kpoints":self.state.kpoints,"description":self.state.description}) #调用生成参数代理
         parameter_content = parameter_result.raw
         print(f"\n生成参数内容为:\n{parameter_content}\n")
         # 使用正则表达式匹配内容
@@ -123,17 +123,53 @@ class VaspCalculationFlow(Flow[VaspState]):
             f.write(self.state.kpoints)
         with open(os.path.join(project_root, 'vasp', 'INCAR'), 'w', encoding='utf-8', newline='\n') as f:
             f.write(self.state.incar)
-
         print("\n已将参数写入KPOINTS和INCAR中")
 
+        return "parameter over"
 
 
 
+    @router(or_(vaspkit_agent_generate,parameter_generate))
+    def finish_or_not(self,state):
+        print("===========================\n请在vasp文件夹检查参数是否达到要求，以决定结束或是迭代优化参数\n===========================\n")
+        while True:
+            answer = input("是否结束?(y/n)")
+            if answer in ["y","Y","N","n"]: break      
+            print("请输入y,Y,n或N:")
+        
+        if answer in ["Y","y"]:
+            return "Generated end"
+        else:
+            return "correct"      #路由到Receive_loop_signal
+
+
+
+    @listen("correct")
+    def Receive_loop_signal(self):
+        self.state.description = input("请输入额外指引或提示词以修正输出:\n")
+        return "loop"
+
+    @router(Receive_loop_signal)
+    def correct_with_vaspkit_or_llm(self,state):
+        while True:
+            answer = input("是否使用Vaspkit修正参数?(y/n)，若否则调用gpt-o1生成参数:")
+            if answer in ["y","Y","N","n"]: break      
+            print("请输入y,Y,n或N:")
+        
+        if answer in ["Y","y"]:
+            return "vaspkit"
+        else:
+            return "llm"
+
+
+
+
+    @listen("Generated end")
+    def submit(self):                                          #结束生成参数，提交计算
+        current_file = os.path.abspath(__file__)
+        project_root = os.path.dirname(os.path.dirname(os.path.dirname(current_file)))
         vasproot = os.path.join(project_root,'vasp')
-        command = [
-            "bohr",
-            "job",
-            "submit",
+        command = ["bohr","job","submit",
             "-i", os.path.abspath(os.path.join(vasproot, "job.json")),  # 完整路径
             "-p", os.path.abspath(vasproot)  # 目录绝对路径
         ]
