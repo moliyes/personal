@@ -1,0 +1,9 @@
+vasp_rag_task:
+  description: >
+    "Answer user's question about VASP: {query}"
+  expected_output: >
+    "A detailed and accurate answer to the VASP-related question, "
+    "with relevant information extracted from the knowledge base."
+    "When calling the tool, make sure to provide both 'query' and 'kwargs'.
+    If there are no additional parameters for 'kwargs', please provide an empty dictionary `{}`."
+  agent: vasp_expert

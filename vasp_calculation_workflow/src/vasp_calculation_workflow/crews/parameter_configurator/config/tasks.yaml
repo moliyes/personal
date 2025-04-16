@@ -1,15 +1,15 @@
 configuration_task:
   description: >
-    基于验证后的POSCAR文件内容,INCAR文件内容,KPOINTS文件内容生成或修改用于结构优化的参数文件KPOINTS和INCAR(若后两个文件内容非空,则在他们的基础上参考用户指引修改)，
+    基于验证后的POSCAR文件内容,INCAR文件内容,KPOINTS文件内容生成或修改用于结构优化的参数文件KPOINTS和INCAR(若后两个文件内容非空,则在他们的基础上参考用户强调信息修改)，
     POSCAR内容:
     ```
     {poscar}
     ```
-    INCAR内容:
+    INCAR内容(可能为空):
     ```
     {incar}
     ```
-    KPOINGTS内容:
+    KPOINGTS内容(可能为空):
     ```
     {kpoints}
     ```
@@ -35,7 +35,7 @@ configuration_task:
        - SIGMA=0.2（ISMEAR=1）或 0.05（ISMEAR=0），与具体的ISMEAR有关
        - ISIF=3（全离子弛豫+晶胞形状优化）
   expected_output: >
-    严格包含以下参数的配置文件，数值需体现专业判断：
+    包含以下参数的配置文件，数值需体现专业判断：
     INCAR必含参数：
     PREC, ENCUT, EDIFF, EDIFFG, IBRION, ISIF, 
     ISMEAR, SIGMA, NSW, ALGO, LREAL, LCHARG, IVDW
