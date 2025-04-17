@@ -1,7 +1,7 @@
 import warnings,os
 #from crewai_tools import RagTool
 from abc import ABC, abstractmethod
-from typing import Any
+from typing import Any,Optional, Dict,Type
 from crewai.tools import BaseTool
 from pydantic import BaseModel, Field, model_validator
 
@@ -33,12 +33,18 @@ class RagTool(BaseTool):
 
         def add(self, *args: Any, **kwargs: Any) -> None:
             raise NotImplementedError
+    
+    # 新增参数模型定义
+    class InputSchema(BaseModel):
+        query: str
+        kwargs: Dict[str, Any] = Field(default_factory=dict)
 
-    name: str = "vasp知识库"
-    description: str = "一个你可以用于检索以回答问题的vasp知识库"
+    name: str = "VASP知识库"
+    description: str = "一个你可以用于检索以回答问题的VASP知识库"
     summarize: bool = False
     adapter: Adapter = Field(default_factory=_AdapterPlaceholder)
     config: dict[str, Any] | None = None
+    args_schema: Type[BaseModel] = InputSchema  # 绑定参数模型
 
     @model_validator(mode="after")
     def _set_default_adapter(self):
@@ -64,10 +70,14 @@ class RagTool(BaseTool):
     def _run(
         self,
         query: str,
-        **kwargs: Any,
+        #**kwargs: Any,
+        kwargs: Optional[Dict[str, Any]] = None,  # 修改参数接收方式
     ) -> Any:
-        self._before_run(query, **kwargs)
+        
+        # 设置默认空字典
+        kwargs = kwargs or {}
 
+        self._before_run(query, **kwargs)
         return f"相关信息:\n{self.adapter.query(query)}"
 
     def _before_run(self, query, **kwargs):
