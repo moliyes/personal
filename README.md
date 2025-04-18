@@ -50,7 +50,7 @@ source ~/.bashrc
 
 ## 使用方式
 将需要研究的结构文件POSCAR放置在vasp文件夹下，替换原有的文件
-要运行时使用命令:
+要运行时导航到项目目录vasp_calculation_workflow执行命令:
 ```bash
 crewai run
 ```
