@@ -11,10 +11,27 @@ Welcome to the {{Vasp Agent Crew}} Crew project, powered by [crewAI](https://cre
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh              #linux
 ```
+安装好后记得重启终端
 
-接下来，导航到您的项目目录并安装依赖项：
+然后安装crewai命令行
+```bash
+uv tool install crewai
+```
 
-（可选）锁定依赖项并使用 CLI 命令安装它们：
+要验证是否安装请运行：
+```bash
+uv tool list
+```
+
+您应该可以看到：
+```bash
+crewai v0.114.0
+- crewai
+```
+
+接下来，导航到项目目录vasp_calculation_workflow并安装依赖项
+
+**使用 CLI 命令安装它们**：
 ```bash
 crewai install
 ```
@@ -51,7 +68,7 @@ crewai flow kickoff
 
 VASP 计算工作流程团队由多个 AI 代理组成，每个代理具有独特的角色、目标和工具。这些代理在`config/tasks.yaml`中定义的一系列任务上进行协作，利用他们的集体技能实现复杂目标。`config/agents.yaml`文件概述了您团队中每个代理的能力和配置。
 
-![alt text](24450dc929ad35aa1cf7c09e981980e.png)
+![alt text](流程图.png)
 
 ## Support
 
