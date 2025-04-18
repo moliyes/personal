@@ -1,5 +1,5 @@
-K-Spacing Value to Generate K-Mesh: 0.020
+Automatic mesh
 0
 Gamma
-  15  15   4
-0.0  0.0  0.0
+8 8 5
+0 0 0

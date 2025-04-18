@@ -73,7 +73,7 @@ class VaspCalculationFlow(Flow[VaspState]):
     @router(validator) 
     def llm_or_vaspkit(self,state):             #路由分支，使用vaspkit或是gpt-o1
         while True:
-            answer = input("是否使用Vaspkit?(y/n)，若否则调用gpt-o1生成参数:")
+            answer = input("是否使用Vaspkit?(y/n)，若否则调用deepseek生成参数:")
             if answer in ["y","Y","N","n"]: break      
             print("请输入y,Y,n或N:")
         
@@ -196,7 +196,6 @@ def kickoff():
     """Run the guide creator flow"""
     VaspCalculationFlow().kickoff()
     print("\n=== 工作流结束 ===")
-    print("计算已提交，请到bohrium平台等待结果.")
 
 def plot():
     """Generate a visualization of the flow"""
