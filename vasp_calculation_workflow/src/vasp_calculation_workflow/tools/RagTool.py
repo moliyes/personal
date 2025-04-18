@@ -112,11 +112,11 @@ rag_tool = RagTool(
 
 
 # 添加数据
-current_file = os.path.abspath(__file__)
-tool_root = os.path.dirname(current_file)
-file_path = os.path.join(tool_root, 'data_source','vasp-wiki.json')
+#current_file = os.path.abspath(__file__)
+#tool_root = os.path.dirname(current_file)
+#file_path = os.path.join(tool_root, 'data_source','vasp-wiki.json')
 
-rag_tool.add(source=file_path, data_type="json")
+#rag_tool.add(source=file_path, data_type="json")
 
 
 # # example query
