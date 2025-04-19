@@ -37,8 +37,15 @@ crewai install
 ```
 
 本项目集成了强大的Vaspkit工具，为了让AI使用它，需要进行一些配置来启动工具
+使用vaspkit.1.5.1.linux.x64.tar替换app/文件夹下的整个vaspkit.1.5.1文件
 
-来到app/vaspkit.1.5.1下，运行：
+来到app/，运行：
+```bash
+tar -zxvf vaspkit.1.5.1.linux.x64.tar.gz 
+```
+```bash
+cd vaspkit.1.5.1
+```
 ```bash
 ./setup.sh
 ```
@@ -46,7 +53,6 @@ crewai install
 ```bash
 source ~/.bashrc 
 ```
-
 
 ## 使用方式
 将需要研究的结构文件POSCAR放置在vasp文件夹下，替换原有的文件
