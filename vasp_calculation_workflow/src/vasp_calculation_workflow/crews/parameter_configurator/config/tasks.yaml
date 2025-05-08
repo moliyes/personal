@@ -1,6 +1,6 @@
 configuration_task:
   description: >
-    基于验证后的POSCAR文件内容,INCAR文件内容,KPOINTS文件内容生成或修改用于结构优化的参数文件KPOINTS和INCAR(若后两个文件内容非空,则在他们的基础上参考用户强调信息修改)，
+    基于POSCAR文件内容,INCAR文件内容,KPOINTS文件内容生成或修改用于结构优化的参数文件KPOINTS和INCAR(若后两个文件内容非空,则在他们的基础上参考用户强调信息修改)，
     POSCAR内容:
     ```
     {poscar}
@@ -12,6 +12,11 @@ configuration_task:
     KPOINGTS内容(可能为空):
     ```
     {kpoints}
+    ```
+
+    POSCAR结构分析报告(用于参考):
+    ```
+    {report}
     ```
     用户强调信息："{description}"(可能为空)
     

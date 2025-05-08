@@ -15,7 +15,7 @@ class VaspkitCrew():
         return Agent(
             config=self.agents_config['vaspkit_operator'],
             tools = [VaspkitTool()],
-            llm = LLM(model="deepseek/deepseek-chat",base_url="https://vip.apiyi.com/v1"),
+            llm = LLM(model="deepseek/deepseek-v3-0324",base_url="https://vip.apiyi.com/v1"),
             verbose=True
         )
 

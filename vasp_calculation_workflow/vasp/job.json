@@ -1,5 +1,5 @@
 {
-    "job_name": "bulk_Bi",
+    "job_name": "test1_Bi",
     "job_type": "container",
     "command": "source /opt/intel/oneapi/setvars.sh && mpirun -n 16 vasp_std | tee log",
     "log_file": "log",

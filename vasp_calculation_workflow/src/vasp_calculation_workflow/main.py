@@ -13,6 +13,7 @@ class VaspState(BaseModel):
     incar: str = ""
     kpoints: str = ""
     description: str = ""
+    report: str = ""
 
 class VaspCalculationFlow(Flow[VaspState]):
     """vasp计算工作流"""
@@ -52,7 +53,8 @@ class VaspCalculationFlow(Flow[VaspState]):
     @router(getposcar)
     def validator(self,state):
         val_result = PosValidator().crew().kickoff(inputs={"poscar": self.state.poscar})
-        print(f"\nPOSCAR的验证结果为：\n{val_result.raw}\n ")
+        self.state.report = val_result.raw
+        print(f"\nPOSCAR的分析结果为：\n{val_result.raw}\n ")
         
         while True:
             answer = input("是否维持原POSCAR提交?(y/n)")
@@ -85,7 +87,7 @@ class VaspCalculationFlow(Flow[VaspState]):
 
     @listen("vaspkit")
     def vaspkit_agent_generate(self,state):
-        parameter_result = VaspkitCrew().crew().kickoff(inputs={"poscar": self.state.poscar,"description":self.state.description}) #调用vaspkit生成参数代理
+        parameter_result = VaspkitCrew().crew().kickoff(inputs={"poscar": self.state.poscar,"report":self.state.report,"description":self.state.description}) #调用vaspkit生成参数代理
         print(f"\nVaspkit调用说明：\n{parameter_result.raw}\n ")
         ###更新状态
         current_file = os.path.abspath(__file__)
@@ -101,7 +103,7 @@ class VaspCalculationFlow(Flow[VaspState]):
     @listen("llm")
     def parameter_generate(self,state):
 
-        parameter_result = ParameterConfigurator().crew().kickoff(inputs={"poscar": self.state.poscar,"incar":self.state.incar,"kpoints":self.state.kpoints,"description":self.state.description}) #调用生成参数代理
+        parameter_result = ParameterConfigurator().crew().kickoff(inputs={"poscar": self.state.poscar,"incar":self.state.incar,"kpoints":self.state.kpoints,"report":self.state.report,"description":self.state.description}) #调用生成参数代理
         parameter_content = parameter_result.raw
         print(f"\n生成参数内容为:\n{parameter_content}\n")
         # 使用正则表达式匹配内容

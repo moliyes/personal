@@ -4,6 +4,10 @@ vaspkit_task:
     ```
     {poscar}
     ```
+    结构报告（用于参考）：
+    ```
+    {report}
+    ```
     用户的额外强调信息为"{description}"(可能为空),根据POSCAR的内容和用户的强调信息分析材料并使用合适的参数调用vaspkit工具，工具会自动生成用于结构优化的INCAR和KPOINTS文件。
   expected_output: >
     执行工具调用，返回分析过程及理由
