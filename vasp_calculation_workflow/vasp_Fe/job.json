@@ -1,5 +1,5 @@
 {
-    "job_name": "test2_ph_agent",
+    "job_name": "test2_Fe_agent",
     "job_type": "container",
     "command": "source /opt/intel/oneapi/setvars.sh && mpirun -n 32 vasp_std ",
     "log_file": "log",

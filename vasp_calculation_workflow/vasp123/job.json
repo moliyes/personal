@@ -1,11 +1,11 @@
 {
-    "job_name": "error_test",
+    "job_name": "test3_phenol",
     "command": "source /opt/intel/oneapi/setvars.sh && mpirun -n 16 vasp_std | tee log",
     "log_file": "log",
     "backward_files": [],
     "result": "/personal/results/vasp/gaas/0",
     "project_id": 29496,
-    "machine_type": "c16_m16_cpu",
+    "machine_type": "c32_m64_cpu",
     "image_address": "registry.dp.tech/dptech/prod-604/vasp:6",
     "platform": "ali",
     "job_type": "container"

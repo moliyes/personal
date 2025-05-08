@@ -1,6 +1,10 @@
   PAW_PBE Bi_d 06Sep2000                 
    15.0000000000000     
  parameters from PSCTR are:
+   SHA256 =  572e7eac3f9482ff025db24f2820381a7a3856069fa85913dc654793f618f69a Bi_d/POTCAR
+   COPYR  = (c) Copyright 06Sep2000 Georg Kresse
+   COPYR  = This file is part of the software VASP. Any use, copying, and all other rights are regulated by the VASP license agreement.
+   COPYR  = If you do not have a valid VASP license, you may not use, copy or distribute this file.
    VRHFIN =Bi:
    LEXCH  = PE
    EATOM  =  1959.2045 eV,  143.9975 Ry
